@@ -1,1 +1,1 @@
-# AI+X:R-PyComputing
+# AI+X:R-Py컴퓨팅 레포
