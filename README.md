@@ -1,1 +1,1 @@
-# AI+X:R-Py컴퓨팅 레포
+# AI+X:R-Py컴퓨팅 Repo
