@@ -1,9 +1,3 @@
-"""
-R-Py 컴퓨팅 Homework 1
-학생: 윤태웅
-제출일: 2025-11-10
-"""
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -42,8 +36,7 @@ print(boston_df_cleaned.describe())
 
 plt.figure(figsize=(14, 10))
 correlation_matrix = boston_df_cleaned.corr()
-sns.heatmap(correlation_matrix, annot=False, cmap='coolwarm', center=0, 
-            square=True, linewidths=0.5)
+sns.heatmap(correlation_matrix, annot=False, cmap='coolwarm', center=0, square=True, linewidths=0.5)
 plt.title('Boston Housing Data - Correlation Heatmap')
 plt.tight_layout()
 print("\n상관관계 히트맵을 표시합니다.")
@@ -238,10 +231,8 @@ print("-" * 40)
 results_part2 = pd.DataFrame({
     'Features': ['All features', 'All features', '4 features', '4 features'],
     'k': [5, 3, 5, 3],
-    'Train Accuracy (%)': [train_acc_knn5*100, train_acc_knn3*100, 
-                           train_acc_red5*100, train_acc_red3*100],
-    'Test Accuracy (%)': [test_acc_knn5*100, test_acc_knn3*100, 
-                          test_acc_red5*100, test_acc_red3*100]
+    'Train Accuracy (%)': [train_acc_knn5*100, train_acc_knn3*100, train_acc_red5*100, train_acc_red3*100],
+    'Test Accuracy (%)': [test_acc_knn5*100, test_acc_knn3*100, test_acc_red5*100, test_acc_red3*100]
 })
 # k값 순서대로 정렬 (3, 5)
 results_part2 = results_part2.sort_values(by=['Features', 'k'], ascending=[True, True]).reset_index(drop=True)
