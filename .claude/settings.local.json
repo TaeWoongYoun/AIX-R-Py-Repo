@@ -7,7 +7,11 @@
       "Bash(python analysis_python.py:*)",
       "Bash(cat:*)",
       "Bash(python3:*)",
-      "Bash(py check_data.py:*)"
+      "Bash(py check_data.py:*)",
+      "Bash(git push)",
+      "Bash(git reset:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\ndocs : Update file\n\nAdd data analysis files and visualizations\n- Add real data analysis script and visualizations\n- Add GitHub and StackOverflow monthly data in JSON format\n- Add SQL queries for data extraction\n- Remove old visualization images\n- Exclude large CSV files from repository\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ],
     "deny": [],
     "ask": []
