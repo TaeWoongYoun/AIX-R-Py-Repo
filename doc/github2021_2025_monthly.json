@@ -1,0 +1,6201 @@
+{
+  "metadata": {
+    "source": "GitHub API",
+    "original_file": "github2021~2025.csv",
+    "total_repositories": 1859506,
+    "date_range": {
+      "start": "2021-01-01",
+      "end": "2025-11-12"
+    },
+    "conversion_timestamp": "2025-12-20T02:18:30.813910",
+    "ai_events": {
+      "github_copilot_preview": "2021-06-29",
+      "github_copilot_release": "2022-06-21",
+      "chatgpt_release": "2022-11-30",
+      "gpt4_release": "2023-03-14",
+      "copilot_chat_release": "2023-12-29",
+      "vibe_coding_coined": "2025-02-02"
+    }
+  },
+  "monthly_summary": [
+    {
+      "period": "2021-01",
+      "repo_count": 13475,
+      "total_stars": 174689,
+      "total_forks": 38506,
+      "total_watchers": 174689,
+      "total_issues": 5531
+    },
+    {
+      "period": "2021-02",
+      "repo_count": 12098,
+      "total_stars": 144870,
+      "total_forks": 26442,
+      "total_watchers": 144870,
+      "total_issues": 4624
+    },
+    {
+      "period": "2021-03",
+      "repo_count": 13507,
+      "total_stars": 307979,
+      "total_forks": 63189,
+      "total_watchers": 307979,
+      "total_issues": 6345
+    },
+    {
+      "period": "2021-04",
+      "repo_count": 13315,
+      "total_stars": 105216,
+      "total_forks": 20306,
+      "total_watchers": 105216,
+      "total_issues": 5244
+    },
+    {
+      "period": "2021-05",
+      "repo_count": 15082,
+      "total_stars": 121163,
+      "total_forks": 23871,
+      "total_watchers": 121163,
+      "total_issues": 4624
+    },
+    {
+      "period": "2021-06",
+      "repo_count": 15529,
+      "total_stars": 134784,
+      "total_forks": 21498,
+      "total_watchers": 134784,
+      "total_issues": 4341
+    },
+    {
+      "period": "2021-07",
+      "repo_count": 14282,
+      "total_stars": 154834,
+      "total_forks": 22255,
+      "total_watchers": 154834,
+      "total_issues": 10091
+    },
+    {
+      "period": "2021-08",
+      "repo_count": 12655,
+      "total_stars": 205859,
+      "total_forks": 29090,
+      "total_watchers": 205859,
+      "total_issues": 6537
+    },
+    {
+      "period": "2021-09",
+      "repo_count": 12613,
+      "total_stars": 94538,
+      "total_forks": 16147,
+      "total_watchers": 94538,
+      "total_issues": 4147
+    },
+    {
+      "period": "2021-10",
+      "repo_count": 12959,
+      "total_stars": 231545,
+      "total_forks": 34717,
+      "total_watchers": 231545,
+      "total_issues": 4779
+    },
+    {
+      "period": "2021-11",
+      "repo_count": 12902,
+      "total_stars": 97074,
+      "total_forks": 17825,
+      "total_watchers": 97074,
+      "total_issues": 4273
+    },
+    {
+      "period": "2021-12",
+      "repo_count": 12453,
+      "total_stars": 107257,
+      "total_forks": 21723,
+      "total_watchers": 107257,
+      "total_issues": 3756
+    },
+    {
+      "period": "2022-01",
+      "repo_count": 13862,
+      "total_stars": 94188,
+      "total_forks": 16431,
+      "total_watchers": 94188,
+      "total_issues": 3615
+    },
+    {
+      "period": "2022-02",
+      "repo_count": 12804,
+      "total_stars": 157691,
+      "total_forks": 23475,
+      "total_watchers": 157691,
+      "total_issues": 5883
+    },
+    {
+      "period": "2022-03",
+      "repo_count": 14244,
+      "total_stars": 206178,
+      "total_forks": 34726,
+      "total_watchers": 206178,
+      "total_issues": 5787
+    },
+    {
+      "period": "2022-04",
+      "repo_count": 14054,
+      "total_stars": 126193,
+      "total_forks": 19033,
+      "total_watchers": 126193,
+      "total_issues": 4932
+    },
+    {
+      "period": "2022-05",
+      "repo_count": 15144,
+      "total_stars": 178173,
+      "total_forks": 29348,
+      "total_watchers": 178173,
+      "total_issues": 6453
+    },
+    {
+      "period": "2022-06",
+      "repo_count": 14126,
+      "total_stars": 105551,
+      "total_forks": 23165,
+      "total_watchers": 105551,
+      "total_issues": 4520
+    },
+    {
+      "period": "2022-07",
+      "repo_count": 14615,
+      "total_stars": 178424,
+      "total_forks": 21571,
+      "total_watchers": 178424,
+      "total_issues": 5278
+    },
+    {
+      "period": "2022-08",
+      "repo_count": 14240,
+      "total_stars": 390264,
+      "total_forks": 61214,
+      "total_watchers": 390264,
+      "total_issues": 7992
+    },
+    {
+      "period": "2022-09",
+      "repo_count": 15616,
+      "total_stars": 197856,
+      "total_forks": 32057,
+      "total_watchers": 197856,
+      "total_issues": 5162
+    },
+    {
+      "period": "2022-10",
+      "repo_count": 16012,
+      "total_stars": 300723,
+      "total_forks": 47547,
+      "total_watchers": 300723,
+      "total_issues": 4872
+    },
+    {
+      "period": "2022-11",
+      "repo_count": 15248,
+      "total_stars": 286296,
+      "total_forks": 39252,
+      "total_watchers": 286296,
+      "total_issues": 5156
+    },
+    {
+      "period": "2022-12",
+      "repo_count": 17353,
+      "total_stars": 764913,
+      "total_forks": 112560,
+      "total_watchers": 764913,
+      "total_issues": 10342
+    },
+    {
+      "period": "2023-01",
+      "repo_count": 20869,
+      "total_stars": 291739,
+      "total_forks": 43236,
+      "total_watchers": 291739,
+      "total_issues": 6096
+    },
+    {
+      "period": "2023-02",
+      "repo_count": 23202,
+      "total_stars": 821896,
+      "total_forks": 126199,
+      "total_watchers": 821896,
+      "total_issues": 20467
+    },
+    {
+      "period": "2023-03",
+      "repo_count": 35233,
+      "total_stars": 1745336,
+      "total_forks": 327518,
+      "total_watchers": 1745336,
+      "total_issues": 25082
+    },
+    {
+      "period": "2023-04",
+      "repo_count": 36122,
+      "total_stars": 1049083,
+      "total_forks": 148785,
+      "total_watchers": 1049083,
+      "total_issues": 22426
+    },
+    {
+      "period": "2023-05",
+      "repo_count": 34366,
+      "total_stars": 937175,
+      "total_forks": 138671,
+      "total_watchers": 937175,
+      "total_issues": 18608
+    },
+    {
+      "period": "2023-06",
+      "repo_count": 29489,
+      "total_stars": 974254,
+      "total_forks": 163326,
+      "total_watchers": 974254,
+      "total_issues": 19276
+    },
+    {
+      "period": "2023-07",
+      "repo_count": 29854,
+      "total_stars": 565226,
+      "total_forks": 70547,
+      "total_watchers": 565226,
+      "total_issues": 14032
+    },
+    {
+      "period": "2023-08",
+      "repo_count": 28494,
+      "total_stars": 542068,
+      "total_forks": 64216,
+      "total_watchers": 542068,
+      "total_issues": 14456
+    },
+    {
+      "period": "2023-09",
+      "repo_count": 31821,
+      "total_stars": 355502,
+      "total_forks": 47458,
+      "total_watchers": 355502,
+      "total_issues": 14399
+    },
+    {
+      "period": "2023-10",
+      "repo_count": 35753,
+      "total_stars": 439965,
+      "total_forks": 63399,
+      "total_watchers": 439965,
+      "total_issues": 17571
+    },
+    {
+      "period": "2023-11",
+      "repo_count": 35425,
+      "total_stars": 360366,
+      "total_forks": 51835,
+      "total_watchers": 360366,
+      "total_issues": 17725
+    },
+    {
+      "period": "2023-12",
+      "repo_count": 34841,
+      "total_stars": 288771,
+      "total_forks": 36467,
+      "total_watchers": 288771,
+      "total_issues": 18809
+    },
+    {
+      "period": "2024-01",
+      "repo_count": 37431,
+      "total_stars": 348990,
+      "total_forks": 45158,
+      "total_watchers": 348990,
+      "total_issues": 16792
+    },
+    {
+      "period": "2024-02",
+      "repo_count": 37415,
+      "total_stars": 311603,
+      "total_forks": 46759,
+      "total_watchers": 311603,
+      "total_issues": 13765
+    },
+    {
+      "period": "2024-03",
+      "repo_count": 42110,
+      "total_stars": 411288,
+      "total_forks": 54247,
+      "total_watchers": 411288,
+      "total_issues": 16539
+    },
+    {
+      "period": "2024-04",
+      "repo_count": 38651,
+      "total_stars": 501701,
+      "total_forks": 64825,
+      "total_watchers": 501701,
+      "total_issues": 14766
+    },
+    {
+      "period": "2024-05",
+      "repo_count": 41454,
+      "total_stars": 385803,
+      "total_forks": 46559,
+      "total_watchers": 385803,
+      "total_issues": 13354
+    },
+    {
+      "period": "2024-06",
+      "repo_count": 39309,
+      "total_stars": 256982,
+      "total_forks": 38967,
+      "total_watchers": 256982,
+      "total_issues": 12508
+    },
+    {
+      "period": "2024-07",
+      "repo_count": 37914,
+      "total_stars": 384293,
+      "total_forks": 63242,
+      "total_watchers": 384293,
+      "total_issues": 10403
+    },
+    {
+      "period": "2024-08",
+      "repo_count": 34865,
+      "total_stars": 289012,
+      "total_forks": 40569,
+      "total_watchers": 289012,
+      "total_issues": 7432
+    },
+    {
+      "period": "2024-09",
+      "repo_count": 37245,
+      "total_stars": 229637,
+      "total_forks": 28383,
+      "total_watchers": 229637,
+      "total_issues": 8522
+    },
+    {
+      "period": "2024-10",
+      "repo_count": 37425,
+      "total_stars": 332591,
+      "total_forks": 45590,
+      "total_watchers": 332591,
+      "total_issues": 9091
+    },
+    {
+      "period": "2024-11",
+      "repo_count": 37570,
+      "total_stars": 279066,
+      "total_forks": 41537,
+      "total_watchers": 279066,
+      "total_issues": 8065
+    },
+    {
+      "period": "2024-12",
+      "repo_count": 39399,
+      "total_stars": 268795,
+      "total_forks": 40838,
+      "total_watchers": 268795,
+      "total_issues": 7898
+    },
+    {
+      "period": "2025-01",
+      "repo_count": 47364,
+      "total_stars": 316483,
+      "total_forks": 45533,
+      "total_watchers": 316483,
+      "total_issues": 12082
+    },
+    {
+      "period": "2025-02",
+      "repo_count": 49720,
+      "total_stars": 306790,
+      "total_forks": 44867,
+      "total_watchers": 306790,
+      "total_issues": 9199
+    },
+    {
+      "period": "2025-03",
+      "repo_count": 57845,
+      "total_stars": 485606,
+      "total_forks": 77971,
+      "total_watchers": 485606,
+      "total_issues": 14691
+    },
+    {
+      "period": "2025-04",
+      "repo_count": 60295,
+      "total_stars": 374646,
+      "total_forks": 53258,
+      "total_watchers": 374646,
+      "total_issues": 18312
+    },
+    {
+      "period": "2025-05",
+      "repo_count": 64773,
+      "total_stars": 244116,
+      "total_forks": 35794,
+      "total_watchers": 244116,
+      "total_issues": 16005
+    },
+    {
+      "period": "2025-06",
+      "repo_count": 69433,
+      "total_stars": 283123,
+      "total_forks": 39463,
+      "total_watchers": 283123,
+      "total_issues": 15977
+    },
+    {
+      "period": "2025-07",
+      "repo_count": 74538,
+      "total_stars": 176204,
+      "total_forks": 26075,
+      "total_watchers": 176204,
+      "total_issues": 16172
+    },
+    {
+      "period": "2025-08",
+      "repo_count": 78260,
+      "total_stars": 104626,
+      "total_forks": 14506,
+      "total_watchers": 104626,
+      "total_issues": 13338
+    },
+    {
+      "period": "2025-09",
+      "repo_count": 72439,
+      "total_stars": 82578,
+      "total_forks": 13605,
+      "total_watchers": 82578,
+      "total_issues": 18464
+    },
+    {
+      "period": "2025-10",
+      "repo_count": 78760,
+      "total_stars": 115624,
+      "total_forks": 15837,
+      "total_watchers": 115624,
+      "total_issues": 16086
+    },
+    {
+      "period": "2025-11",
+      "repo_count": 31634,
+      "total_stars": 7050,
+      "total_forks": 1255,
+      "total_watchers": 7050,
+      "total_issues": 5042
+    }
+  ],
+  "by_period": [
+    {
+      "year_month": "2021-01",
+      "ai_period": "Before",
+      "repo_count": 13475
+    },
+    {
+      "year_month": "2021-02",
+      "ai_period": "Before",
+      "repo_count": 12098
+    },
+    {
+      "year_month": "2021-03",
+      "ai_period": "Before",
+      "repo_count": 13507
+    },
+    {
+      "year_month": "2021-04",
+      "ai_period": "Before",
+      "repo_count": 13315
+    },
+    {
+      "year_month": "2021-05",
+      "ai_period": "Before",
+      "repo_count": 15082
+    },
+    {
+      "year_month": "2021-06",
+      "ai_period": "Before",
+      "repo_count": 15529
+    },
+    {
+      "year_month": "2021-07",
+      "ai_period": "Before",
+      "repo_count": 14282
+    },
+    {
+      "year_month": "2021-08",
+      "ai_period": "Before",
+      "repo_count": 12655
+    },
+    {
+      "year_month": "2021-09",
+      "ai_period": "Before",
+      "repo_count": 12613
+    },
+    {
+      "year_month": "2021-10",
+      "ai_period": "Before",
+      "repo_count": 12959
+    },
+    {
+      "year_month": "2021-11",
+      "ai_period": "Before",
+      "repo_count": 12902
+    },
+    {
+      "year_month": "2021-12",
+      "ai_period": "Before",
+      "repo_count": 12453
+    },
+    {
+      "year_month": "2022-01",
+      "ai_period": "Before",
+      "repo_count": 13862
+    },
+    {
+      "year_month": "2022-02",
+      "ai_period": "Before",
+      "repo_count": 12804
+    },
+    {
+      "year_month": "2022-03",
+      "ai_period": "Before",
+      "repo_count": 14244
+    },
+    {
+      "year_month": "2022-04",
+      "ai_period": "Before",
+      "repo_count": 14054
+    },
+    {
+      "year_month": "2022-05",
+      "ai_period": "Before",
+      "repo_count": 15144
+    },
+    {
+      "year_month": "2022-06",
+      "ai_period": "Before",
+      "repo_count": 14126
+    },
+    {
+      "year_month": "2022-07",
+      "ai_period": "Before",
+      "repo_count": 14615
+    },
+    {
+      "year_month": "2022-08",
+      "ai_period": "Before",
+      "repo_count": 14240
+    },
+    {
+      "year_month": "2022-09",
+      "ai_period": "Before",
+      "repo_count": 15616
+    },
+    {
+      "year_month": "2022-10",
+      "ai_period": "Before",
+      "repo_count": 16012
+    },
+    {
+      "year_month": "2022-11",
+      "ai_period": "After",
+      "repo_count": 542
+    },
+    {
+      "year_month": "2022-11",
+      "ai_period": "Before",
+      "repo_count": 14706
+    },
+    {
+      "year_month": "2022-12",
+      "ai_period": "After",
+      "repo_count": 17353
+    },
+    {
+      "year_month": "2023-01",
+      "ai_period": "After",
+      "repo_count": 20869
+    },
+    {
+      "year_month": "2023-02",
+      "ai_period": "After",
+      "repo_count": 23202
+    },
+    {
+      "year_month": "2023-03",
+      "ai_period": "After",
+      "repo_count": 35233
+    },
+    {
+      "year_month": "2023-04",
+      "ai_period": "After",
+      "repo_count": 36122
+    },
+    {
+      "year_month": "2023-05",
+      "ai_period": "After",
+      "repo_count": 34366
+    },
+    {
+      "year_month": "2023-06",
+      "ai_period": "After",
+      "repo_count": 29489
+    },
+    {
+      "year_month": "2023-07",
+      "ai_period": "After",
+      "repo_count": 29854
+    },
+    {
+      "year_month": "2023-08",
+      "ai_period": "After",
+      "repo_count": 28494
+    },
+    {
+      "year_month": "2023-09",
+      "ai_period": "After",
+      "repo_count": 31821
+    },
+    {
+      "year_month": "2023-10",
+      "ai_period": "After",
+      "repo_count": 35753
+    },
+    {
+      "year_month": "2023-11",
+      "ai_period": "After",
+      "repo_count": 35425
+    },
+    {
+      "year_month": "2023-12",
+      "ai_period": "After",
+      "repo_count": 34841
+    },
+    {
+      "year_month": "2024-01",
+      "ai_period": "After",
+      "repo_count": 37431
+    },
+    {
+      "year_month": "2024-02",
+      "ai_period": "After",
+      "repo_count": 37415
+    },
+    {
+      "year_month": "2024-03",
+      "ai_period": "After",
+      "repo_count": 42110
+    },
+    {
+      "year_month": "2024-04",
+      "ai_period": "After",
+      "repo_count": 38651
+    },
+    {
+      "year_month": "2024-05",
+      "ai_period": "After",
+      "repo_count": 41454
+    },
+    {
+      "year_month": "2024-06",
+      "ai_period": "After",
+      "repo_count": 39309
+    },
+    {
+      "year_month": "2024-07",
+      "ai_period": "After",
+      "repo_count": 37914
+    },
+    {
+      "year_month": "2024-08",
+      "ai_period": "After",
+      "repo_count": 34865
+    },
+    {
+      "year_month": "2024-09",
+      "ai_period": "After",
+      "repo_count": 37245
+    },
+    {
+      "year_month": "2024-10",
+      "ai_period": "After",
+      "repo_count": 37425
+    },
+    {
+      "year_month": "2024-11",
+      "ai_period": "After",
+      "repo_count": 37570
+    },
+    {
+      "year_month": "2024-12",
+      "ai_period": "After",
+      "repo_count": 39399
+    },
+    {
+      "year_month": "2025-01",
+      "ai_period": "After",
+      "repo_count": 47364
+    },
+    {
+      "year_month": "2025-02",
+      "ai_period": "After",
+      "repo_count": 49720
+    },
+    {
+      "year_month": "2025-03",
+      "ai_period": "After",
+      "repo_count": 57845
+    },
+    {
+      "year_month": "2025-04",
+      "ai_period": "After",
+      "repo_count": 60295
+    },
+    {
+      "year_month": "2025-05",
+      "ai_period": "After",
+      "repo_count": 64773
+    },
+    {
+      "year_month": "2025-06",
+      "ai_period": "After",
+      "repo_count": 69433
+    },
+    {
+      "year_month": "2025-07",
+      "ai_period": "After",
+      "repo_count": 74538
+    },
+    {
+      "year_month": "2025-08",
+      "ai_period": "After",
+      "repo_count": 78260
+    },
+    {
+      "year_month": "2025-09",
+      "ai_period": "After",
+      "repo_count": 72439
+    },
+    {
+      "year_month": "2025-10",
+      "ai_period": "After",
+      "repo_count": 78760
+    },
+    {
+      "year_month": "2025-11",
+      "ai_period": "After",
+      "repo_count": 31634
+    }
+  ],
+  "by_ai_field": [
+    {
+      "year_month": "2021-01",
+      "ai_field": "Computer Vision",
+      "repo_count": 106
+    },
+    {
+      "year_month": "2021-01",
+      "ai_field": "Deep Learning",
+      "repo_count": 3640
+    },
+    {
+      "year_month": "2021-01",
+      "ai_field": "General ML",
+      "repo_count": 4065
+    },
+    {
+      "year_month": "2021-01",
+      "ai_field": "LLM",
+      "repo_count": 82
+    },
+    {
+      "year_month": "2021-01",
+      "ai_field": "NLP",
+      "repo_count": 146
+    },
+    {
+      "year_month": "2021-01",
+      "ai_field": "Others",
+      "repo_count": 5436
+    },
+    {
+      "year_month": "2021-02",
+      "ai_field": "Computer Vision",
+      "repo_count": 93
+    },
+    {
+      "year_month": "2021-02",
+      "ai_field": "Deep Learning",
+      "repo_count": 3211
+    },
+    {
+      "year_month": "2021-02",
+      "ai_field": "General ML",
+      "repo_count": 3548
+    },
+    {
+      "year_month": "2021-02",
+      "ai_field": "LLM",
+      "repo_count": 62
+    },
+    {
+      "year_month": "2021-02",
+      "ai_field": "NLP",
+      "repo_count": 122
+    },
+    {
+      "year_month": "2021-02",
+      "ai_field": "Others",
+      "repo_count": 5062
+    },
+    {
+      "year_month": "2021-03",
+      "ai_field": "Computer Vision",
+      "repo_count": 100
+    },
+    {
+      "year_month": "2021-03",
+      "ai_field": "Deep Learning",
+      "repo_count": 3598
+    },
+    {
+      "year_month": "2021-03",
+      "ai_field": "General ML",
+      "repo_count": 3840
+    },
+    {
+      "year_month": "2021-03",
+      "ai_field": "LLM",
+      "repo_count": 67
+    },
+    {
+      "year_month": "2021-03",
+      "ai_field": "NLP",
+      "repo_count": 169
+    },
+    {
+      "year_month": "2021-03",
+      "ai_field": "Others",
+      "repo_count": 5733
+    },
+    {
+      "year_month": "2021-04",
+      "ai_field": "Computer Vision",
+      "repo_count": 94
+    },
+    {
+      "year_month": "2021-04",
+      "ai_field": "Deep Learning",
+      "repo_count": 3534
+    },
+    {
+      "year_month": "2021-04",
+      "ai_field": "General ML",
+      "repo_count": 3890
+    },
+    {
+      "year_month": "2021-04",
+      "ai_field": "LLM",
+      "repo_count": 82
+    },
+    {
+      "year_month": "2021-04",
+      "ai_field": "NLP",
+      "repo_count": 158
+    },
+    {
+      "year_month": "2021-04",
+      "ai_field": "Others",
+      "repo_count": 5557
+    },
+    {
+      "year_month": "2021-05",
+      "ai_field": "Computer Vision",
+      "repo_count": 97
+    },
+    {
+      "year_month": "2021-05",
+      "ai_field": "Deep Learning",
+      "repo_count": 4837
+    },
+    {
+      "year_month": "2021-05",
+      "ai_field": "General ML",
+      "repo_count": 4143
+    },
+    {
+      "year_month": "2021-05",
+      "ai_field": "LLM",
+      "repo_count": 80
+    },
+    {
+      "year_month": "2021-05",
+      "ai_field": "NLP",
+      "repo_count": 182
+    },
+    {
+      "year_month": "2021-05",
+      "ai_field": "Others",
+      "repo_count": 5743
+    },
+    {
+      "year_month": "2021-06",
+      "ai_field": "Computer Vision",
+      "repo_count": 110
+    },
+    {
+      "year_month": "2021-06",
+      "ai_field": "Deep Learning",
+      "repo_count": 3439
+    },
+    {
+      "year_month": "2021-06",
+      "ai_field": "General ML",
+      "repo_count": 4086
+    },
+    {
+      "year_month": "2021-06",
+      "ai_field": "LLM",
+      "repo_count": 95
+    },
+    {
+      "year_month": "2021-06",
+      "ai_field": "NLP",
+      "repo_count": 171
+    },
+    {
+      "year_month": "2021-06",
+      "ai_field": "Others",
+      "repo_count": 7628
+    },
+    {
+      "year_month": "2021-07",
+      "ai_field": "Computer Vision",
+      "repo_count": 121
+    },
+    {
+      "year_month": "2021-07",
+      "ai_field": "Deep Learning",
+      "repo_count": 3509
+    },
+    {
+      "year_month": "2021-07",
+      "ai_field": "General ML",
+      "repo_count": 3914
+    },
+    {
+      "year_month": "2021-07",
+      "ai_field": "LLM",
+      "repo_count": 91
+    },
+    {
+      "year_month": "2021-07",
+      "ai_field": "NLP",
+      "repo_count": 200
+    },
+    {
+      "year_month": "2021-07",
+      "ai_field": "Others",
+      "repo_count": 6447
+    },
+    {
+      "year_month": "2021-08",
+      "ai_field": "Computer Vision",
+      "repo_count": 104
+    },
+    {
+      "year_month": "2021-08",
+      "ai_field": "Deep Learning",
+      "repo_count": 3264
+    },
+    {
+      "year_month": "2021-08",
+      "ai_field": "General ML",
+      "repo_count": 3776
+    },
+    {
+      "year_month": "2021-08",
+      "ai_field": "LLM",
+      "repo_count": 100
+    },
+    {
+      "year_month": "2021-08",
+      "ai_field": "NLP",
+      "repo_count": 173
+    },
+    {
+      "year_month": "2021-08",
+      "ai_field": "Others",
+      "repo_count": 5238
+    },
+    {
+      "year_month": "2021-09",
+      "ai_field": "Computer Vision",
+      "repo_count": 101
+    },
+    {
+      "year_month": "2021-09",
+      "ai_field": "Deep Learning",
+      "repo_count": 3047
+    },
+    {
+      "year_month": "2021-09",
+      "ai_field": "General ML",
+      "repo_count": 3860
+    },
+    {
+      "year_month": "2021-09",
+      "ai_field": "LLM",
+      "repo_count": 76
+    },
+    {
+      "year_month": "2021-09",
+      "ai_field": "NLP",
+      "repo_count": 190
+    },
+    {
+      "year_month": "2021-09",
+      "ai_field": "Others",
+      "repo_count": 5339
+    },
+    {
+      "year_month": "2021-10",
+      "ai_field": "Computer Vision",
+      "repo_count": 100
+    },
+    {
+      "year_month": "2021-10",
+      "ai_field": "Deep Learning",
+      "repo_count": 3102
+    },
+    {
+      "year_month": "2021-10",
+      "ai_field": "General ML",
+      "repo_count": 3816
+    },
+    {
+      "year_month": "2021-10",
+      "ai_field": "LLM",
+      "repo_count": 80
+    },
+    {
+      "year_month": "2021-10",
+      "ai_field": "NLP",
+      "repo_count": 157
+    },
+    {
+      "year_month": "2021-10",
+      "ai_field": "Others",
+      "repo_count": 5704
+    },
+    {
+      "year_month": "2021-11",
+      "ai_field": "Computer Vision",
+      "repo_count": 89
+    },
+    {
+      "year_month": "2021-11",
+      "ai_field": "Deep Learning",
+      "repo_count": 3194
+    },
+    {
+      "year_month": "2021-11",
+      "ai_field": "General ML",
+      "repo_count": 3767
+    },
+    {
+      "year_month": "2021-11",
+      "ai_field": "LLM",
+      "repo_count": 93
+    },
+    {
+      "year_month": "2021-11",
+      "ai_field": "NLP",
+      "repo_count": 184
+    },
+    {
+      "year_month": "2021-11",
+      "ai_field": "Others",
+      "repo_count": 5575
+    },
+    {
+      "year_month": "2021-12",
+      "ai_field": "Computer Vision",
+      "repo_count": 96
+    },
+    {
+      "year_month": "2021-12",
+      "ai_field": "Deep Learning",
+      "repo_count": 3149
+    },
+    {
+      "year_month": "2021-12",
+      "ai_field": "General ML",
+      "repo_count": 3695
+    },
+    {
+      "year_month": "2021-12",
+      "ai_field": "LLM",
+      "repo_count": 98
+    },
+    {
+      "year_month": "2021-12",
+      "ai_field": "NLP",
+      "repo_count": 148
+    },
+    {
+      "year_month": "2021-12",
+      "ai_field": "Others",
+      "repo_count": 5267
+    },
+    {
+      "year_month": "2022-01",
+      "ai_field": "Computer Vision",
+      "repo_count": 101
+    },
+    {
+      "year_month": "2022-01",
+      "ai_field": "Deep Learning",
+      "repo_count": 3441
+    },
+    {
+      "year_month": "2022-01",
+      "ai_field": "General ML",
+      "repo_count": 4168
+    },
+    {
+      "year_month": "2022-01",
+      "ai_field": "LLM",
+      "repo_count": 102
+    },
+    {
+      "year_month": "2022-01",
+      "ai_field": "NLP",
+      "repo_count": 199
+    },
+    {
+      "year_month": "2022-01",
+      "ai_field": "Others",
+      "repo_count": 5851
+    },
+    {
+      "year_month": "2022-02",
+      "ai_field": "Computer Vision",
+      "repo_count": 84
+    },
+    {
+      "year_month": "2022-02",
+      "ai_field": "Deep Learning",
+      "repo_count": 3026
+    },
+    {
+      "year_month": "2022-02",
+      "ai_field": "General ML",
+      "repo_count": 3795
+    },
+    {
+      "year_month": "2022-02",
+      "ai_field": "LLM",
+      "repo_count": 95
+    },
+    {
+      "year_month": "2022-02",
+      "ai_field": "NLP",
+      "repo_count": 176
+    },
+    {
+      "year_month": "2022-02",
+      "ai_field": "Others",
+      "repo_count": 5628
+    },
+    {
+      "year_month": "2022-03",
+      "ai_field": "Computer Vision",
+      "repo_count": 105
+    },
+    {
+      "year_month": "2022-03",
+      "ai_field": "Deep Learning",
+      "repo_count": 3466
+    },
+    {
+      "year_month": "2022-03",
+      "ai_field": "General ML",
+      "repo_count": 4143
+    },
+    {
+      "year_month": "2022-03",
+      "ai_field": "LLM",
+      "repo_count": 105
+    },
+    {
+      "year_month": "2022-03",
+      "ai_field": "NLP",
+      "repo_count": 173
+    },
+    {
+      "year_month": "2022-03",
+      "ai_field": "Others",
+      "repo_count": 6252
+    },
+    {
+      "year_month": "2022-04",
+      "ai_field": "Computer Vision",
+      "repo_count": 90
+    },
+    {
+      "year_month": "2022-04",
+      "ai_field": "Deep Learning",
+      "repo_count": 3383
+    },
+    {
+      "year_month": "2022-04",
+      "ai_field": "General ML",
+      "repo_count": 4248
+    },
+    {
+      "year_month": "2022-04",
+      "ai_field": "LLM",
+      "repo_count": 123
+    },
+    {
+      "year_month": "2022-04",
+      "ai_field": "NLP",
+      "repo_count": 194
+    },
+    {
+      "year_month": "2022-04",
+      "ai_field": "Others",
+      "repo_count": 6016
+    },
+    {
+      "year_month": "2022-05",
+      "ai_field": "Computer Vision",
+      "repo_count": 129
+    },
+    {
+      "year_month": "2022-05",
+      "ai_field": "Deep Learning",
+      "repo_count": 3744
+    },
+    {
+      "year_month": "2022-05",
+      "ai_field": "General ML",
+      "repo_count": 4432
+    },
+    {
+      "year_month": "2022-05",
+      "ai_field": "LLM",
+      "repo_count": 142
+    },
+    {
+      "year_month": "2022-05",
+      "ai_field": "NLP",
+      "repo_count": 172
+    },
+    {
+      "year_month": "2022-05",
+      "ai_field": "Others",
+      "repo_count": 6525
+    },
+    {
+      "year_month": "2022-06",
+      "ai_field": "Computer Vision",
+      "repo_count": 122
+    },
+    {
+      "year_month": "2022-06",
+      "ai_field": "Deep Learning",
+      "repo_count": 3485
+    },
+    {
+      "year_month": "2022-06",
+      "ai_field": "General ML",
+      "repo_count": 4361
+    },
+    {
+      "year_month": "2022-06",
+      "ai_field": "LLM",
+      "repo_count": 112
+    },
+    {
+      "year_month": "2022-06",
+      "ai_field": "NLP",
+      "repo_count": 172
+    },
+    {
+      "year_month": "2022-06",
+      "ai_field": "Others",
+      "repo_count": 5874
+    },
+    {
+      "year_month": "2022-07",
+      "ai_field": "Computer Vision",
+      "repo_count": 112
+    },
+    {
+      "year_month": "2022-07",
+      "ai_field": "Deep Learning",
+      "repo_count": 3421
+    },
+    {
+      "year_month": "2022-07",
+      "ai_field": "General ML",
+      "repo_count": 4811
+    },
+    {
+      "year_month": "2022-07",
+      "ai_field": "LLM",
+      "repo_count": 110
+    },
+    {
+      "year_month": "2022-07",
+      "ai_field": "NLP",
+      "repo_count": 173
+    },
+    {
+      "year_month": "2022-07",
+      "ai_field": "Others",
+      "repo_count": 5988
+    },
+    {
+      "year_month": "2022-08",
+      "ai_field": "Computer Vision",
+      "repo_count": 109
+    },
+    {
+      "year_month": "2022-08",
+      "ai_field": "Deep Learning",
+      "repo_count": 3284
+    },
+    {
+      "year_month": "2022-08",
+      "ai_field": "General ML",
+      "repo_count": 4454
+    },
+    {
+      "year_month": "2022-08",
+      "ai_field": "LLM",
+      "repo_count": 121
+    },
+    {
+      "year_month": "2022-08",
+      "ai_field": "NLP",
+      "repo_count": 171
+    },
+    {
+      "year_month": "2022-08",
+      "ai_field": "Others",
+      "repo_count": 6101
+    },
+    {
+      "year_month": "2022-09",
+      "ai_field": "Computer Vision",
+      "repo_count": 101
+    },
+    {
+      "year_month": "2022-09",
+      "ai_field": "Deep Learning",
+      "repo_count": 3267
+    },
+    {
+      "year_month": "2022-09",
+      "ai_field": "General ML",
+      "repo_count": 4872
+    },
+    {
+      "year_month": "2022-09",
+      "ai_field": "LLM",
+      "repo_count": 178
+    },
+    {
+      "year_month": "2022-09",
+      "ai_field": "NLP",
+      "repo_count": 174
+    },
+    {
+      "year_month": "2022-09",
+      "ai_field": "Others",
+      "repo_count": 7024
+    },
+    {
+      "year_month": "2022-10",
+      "ai_field": "Computer Vision",
+      "repo_count": 113
+    },
+    {
+      "year_month": "2022-10",
+      "ai_field": "Deep Learning",
+      "repo_count": 3189
+    },
+    {
+      "year_month": "2022-10",
+      "ai_field": "General ML",
+      "repo_count": 4360
+    },
+    {
+      "year_month": "2022-10",
+      "ai_field": "LLM",
+      "repo_count": 157
+    },
+    {
+      "year_month": "2022-10",
+      "ai_field": "NLP",
+      "repo_count": 161
+    },
+    {
+      "year_month": "2022-10",
+      "ai_field": "Others",
+      "repo_count": 8032
+    },
+    {
+      "year_month": "2022-11",
+      "ai_field": "Computer Vision",
+      "repo_count": 88
+    },
+    {
+      "year_month": "2022-11",
+      "ai_field": "Deep Learning",
+      "repo_count": 3341
+    },
+    {
+      "year_month": "2022-11",
+      "ai_field": "General ML",
+      "repo_count": 4392
+    },
+    {
+      "year_month": "2022-11",
+      "ai_field": "LLM",
+      "repo_count": 170
+    },
+    {
+      "year_month": "2022-11",
+      "ai_field": "NLP",
+      "repo_count": 196
+    },
+    {
+      "year_month": "2022-11",
+      "ai_field": "Others",
+      "repo_count": 7061
+    },
+    {
+      "year_month": "2022-12",
+      "ai_field": "Computer Vision",
+      "repo_count": 128
+    },
+    {
+      "year_month": "2022-12",
+      "ai_field": "Deep Learning",
+      "repo_count": 3192
+    },
+    {
+      "year_month": "2022-12",
+      "ai_field": "General ML",
+      "repo_count": 4242
+    },
+    {
+      "year_month": "2022-12",
+      "ai_field": "LLM",
+      "repo_count": 1913
+    },
+    {
+      "year_month": "2022-12",
+      "ai_field": "NLP",
+      "repo_count": 185
+    },
+    {
+      "year_month": "2022-12",
+      "ai_field": "Others",
+      "repo_count": 7693
+    },
+    {
+      "year_month": "2023-01",
+      "ai_field": "Computer Vision",
+      "repo_count": 146
+    },
+    {
+      "year_month": "2023-01",
+      "ai_field": "Deep Learning",
+      "repo_count": 3654
+    },
+    {
+      "year_month": "2023-01",
+      "ai_field": "General ML",
+      "repo_count": 5277
+    },
+    {
+      "year_month": "2023-01",
+      "ai_field": "LLM",
+      "repo_count": 2220
+    },
+    {
+      "year_month": "2023-01",
+      "ai_field": "NLP",
+      "repo_count": 217
+    },
+    {
+      "year_month": "2023-01",
+      "ai_field": "Others",
+      "repo_count": 9355
+    },
+    {
+      "year_month": "2023-02",
+      "ai_field": "Computer Vision",
+      "repo_count": 130
+    },
+    {
+      "year_month": "2023-02",
+      "ai_field": "Deep Learning",
+      "repo_count": 3655
+    },
+    {
+      "year_month": "2023-02",
+      "ai_field": "General ML",
+      "repo_count": 4966
+    },
+    {
+      "year_month": "2023-02",
+      "ai_field": "LLM",
+      "repo_count": 3415
+    },
+    {
+      "year_month": "2023-02",
+      "ai_field": "NLP",
+      "repo_count": 221
+    },
+    {
+      "year_month": "2023-02",
+      "ai_field": "Others",
+      "repo_count": 10815
+    },
+    {
+      "year_month": "2023-03",
+      "ai_field": "Computer Vision",
+      "repo_count": 156
+    },
+    {
+      "year_month": "2023-03",
+      "ai_field": "Deep Learning",
+      "repo_count": 4202
+    },
+    {
+      "year_month": "2023-03",
+      "ai_field": "General ML",
+      "repo_count": 5949
+    },
+    {
+      "year_month": "2023-03",
+      "ai_field": "LLM",
+      "repo_count": 7934
+    },
+    {
+      "year_month": "2023-03",
+      "ai_field": "NLP",
+      "repo_count": 247
+    },
+    {
+      "year_month": "2023-03",
+      "ai_field": "Others",
+      "repo_count": 16745
+    },
+    {
+      "year_month": "2023-04",
+      "ai_field": "Computer Vision",
+      "repo_count": 147
+    },
+    {
+      "year_month": "2023-04",
+      "ai_field": "Deep Learning",
+      "repo_count": 4159
+    },
+    {
+      "year_month": "2023-04",
+      "ai_field": "General ML",
+      "repo_count": 5779
+    },
+    {
+      "year_month": "2023-04",
+      "ai_field": "LLM",
+      "repo_count": 7225
+    },
+    {
+      "year_month": "2023-04",
+      "ai_field": "NLP",
+      "repo_count": 318
+    },
+    {
+      "year_month": "2023-04",
+      "ai_field": "Others",
+      "repo_count": 18494
+    },
+    {
+      "year_month": "2023-05",
+      "ai_field": "Computer Vision",
+      "repo_count": 160
+    },
+    {
+      "year_month": "2023-05",
+      "ai_field": "Deep Learning",
+      "repo_count": 4651
+    },
+    {
+      "year_month": "2023-05",
+      "ai_field": "General ML",
+      "repo_count": 6489
+    },
+    {
+      "year_month": "2023-05",
+      "ai_field": "LLM",
+      "repo_count": 6276
+    },
+    {
+      "year_month": "2023-05",
+      "ai_field": "NLP",
+      "repo_count": 275
+    },
+    {
+      "year_month": "2023-05",
+      "ai_field": "Others",
+      "repo_count": 16515
+    },
+    {
+      "year_month": "2023-06",
+      "ai_field": "Computer Vision",
+      "repo_count": 179
+    },
+    {
+      "year_month": "2023-06",
+      "ai_field": "Deep Learning",
+      "repo_count": 4212
+    },
+    {
+      "year_month": "2023-06",
+      "ai_field": "General ML",
+      "repo_count": 6139
+    },
+    {
+      "year_month": "2023-06",
+      "ai_field": "LLM",
+      "repo_count": 5028
+    },
+    {
+      "year_month": "2023-06",
+      "ai_field": "NLP",
+      "repo_count": 261
+    },
+    {
+      "year_month": "2023-06",
+      "ai_field": "Others",
+      "repo_count": 13670
+    },
+    {
+      "year_month": "2023-07",
+      "ai_field": "Computer Vision",
+      "repo_count": 172
+    },
+    {
+      "year_month": "2023-07",
+      "ai_field": "Deep Learning",
+      "repo_count": 4342
+    },
+    {
+      "year_month": "2023-07",
+      "ai_field": "General ML",
+      "repo_count": 6605
+    },
+    {
+      "year_month": "2023-07",
+      "ai_field": "LLM",
+      "repo_count": 4751
+    },
+    {
+      "year_month": "2023-07",
+      "ai_field": "NLP",
+      "repo_count": 278
+    },
+    {
+      "year_month": "2023-07",
+      "ai_field": "Others",
+      "repo_count": 13706
+    },
+    {
+      "year_month": "2023-08",
+      "ai_field": "Computer Vision",
+      "repo_count": 169
+    },
+    {
+      "year_month": "2023-08",
+      "ai_field": "Deep Learning",
+      "repo_count": 4251
+    },
+    {
+      "year_month": "2023-08",
+      "ai_field": "General ML",
+      "repo_count": 6553
+    },
+    {
+      "year_month": "2023-08",
+      "ai_field": "LLM",
+      "repo_count": 4395
+    },
+    {
+      "year_month": "2023-08",
+      "ai_field": "NLP",
+      "repo_count": 261
+    },
+    {
+      "year_month": "2023-08",
+      "ai_field": "Others",
+      "repo_count": 12865
+    },
+    {
+      "year_month": "2023-09",
+      "ai_field": "Computer Vision",
+      "repo_count": 174
+    },
+    {
+      "year_month": "2023-09",
+      "ai_field": "Deep Learning",
+      "repo_count": 4119
+    },
+    {
+      "year_month": "2023-09",
+      "ai_field": "General ML",
+      "repo_count": 6729
+    },
+    {
+      "year_month": "2023-09",
+      "ai_field": "LLM",
+      "repo_count": 3852
+    },
+    {
+      "year_month": "2023-09",
+      "ai_field": "NLP",
+      "repo_count": 304
+    },
+    {
+      "year_month": "2023-09",
+      "ai_field": "Others",
+      "repo_count": 16643
+    },
+    {
+      "year_month": "2023-10",
+      "ai_field": "Computer Vision",
+      "repo_count": 135
+    },
+    {
+      "year_month": "2023-10",
+      "ai_field": "Deep Learning",
+      "repo_count": 4319
+    },
+    {
+      "year_month": "2023-10",
+      "ai_field": "General ML",
+      "repo_count": 6708
+    },
+    {
+      "year_month": "2023-10",
+      "ai_field": "LLM",
+      "repo_count": 4311
+    },
+    {
+      "year_month": "2023-10",
+      "ai_field": "NLP",
+      "repo_count": 305
+    },
+    {
+      "year_month": "2023-10",
+      "ai_field": "Others",
+      "repo_count": 19975
+    },
+    {
+      "year_month": "2023-11",
+      "ai_field": "Computer Vision",
+      "repo_count": 156
+    },
+    {
+      "year_month": "2023-11",
+      "ai_field": "Deep Learning",
+      "repo_count": 4044
+    },
+    {
+      "year_month": "2023-11",
+      "ai_field": "General ML",
+      "repo_count": 6001
+    },
+    {
+      "year_month": "2023-11",
+      "ai_field": "LLM",
+      "repo_count": 4417
+    },
+    {
+      "year_month": "2023-11",
+      "ai_field": "NLP",
+      "repo_count": 246
+    },
+    {
+      "year_month": "2023-11",
+      "ai_field": "Others",
+      "repo_count": 20561
+    },
+    {
+      "year_month": "2023-12",
+      "ai_field": "Computer Vision",
+      "repo_count": 170
+    },
+    {
+      "year_month": "2023-12",
+      "ai_field": "Deep Learning",
+      "repo_count": 4222
+    },
+    {
+      "year_month": "2023-12",
+      "ai_field": "General ML",
+      "repo_count": 6278
+    },
+    {
+      "year_month": "2023-12",
+      "ai_field": "LLM",
+      "repo_count": 4444
+    },
+    {
+      "year_month": "2023-12",
+      "ai_field": "NLP",
+      "repo_count": 249
+    },
+    {
+      "year_month": "2023-12",
+      "ai_field": "Others",
+      "repo_count": 19478
+    },
+    {
+      "year_month": "2024-01",
+      "ai_field": "Computer Vision",
+      "repo_count": 169
+    },
+    {
+      "year_month": "2024-01",
+      "ai_field": "Deep Learning",
+      "repo_count": 4657
+    },
+    {
+      "year_month": "2024-01",
+      "ai_field": "General ML",
+      "repo_count": 7054
+    },
+    {
+      "year_month": "2024-01",
+      "ai_field": "LLM",
+      "repo_count": 4720
+    },
+    {
+      "year_month": "2024-01",
+      "ai_field": "NLP",
+      "repo_count": 309
+    },
+    {
+      "year_month": "2024-01",
+      "ai_field": "Others",
+      "repo_count": 20522
+    },
+    {
+      "year_month": "2024-02",
+      "ai_field": "Computer Vision",
+      "repo_count": 169
+    },
+    {
+      "year_month": "2024-02",
+      "ai_field": "Deep Learning",
+      "repo_count": 4465
+    },
+    {
+      "year_month": "2024-02",
+      "ai_field": "General ML",
+      "repo_count": 6948
+    },
+    {
+      "year_month": "2024-02",
+      "ai_field": "LLM",
+      "repo_count": 4704
+    },
+    {
+      "year_month": "2024-02",
+      "ai_field": "NLP",
+      "repo_count": 315
+    },
+    {
+      "year_month": "2024-02",
+      "ai_field": "Others",
+      "repo_count": 20814
+    },
+    {
+      "year_month": "2024-03",
+      "ai_field": "Computer Vision",
+      "repo_count": 158
+    },
+    {
+      "year_month": "2024-03",
+      "ai_field": "Deep Learning",
+      "repo_count": 4881
+    },
+    {
+      "year_month": "2024-03",
+      "ai_field": "General ML",
+      "repo_count": 7264
+    },
+    {
+      "year_month": "2024-03",
+      "ai_field": "LLM",
+      "repo_count": 5574
+    },
+    {
+      "year_month": "2024-03",
+      "ai_field": "NLP",
+      "repo_count": 332
+    },
+    {
+      "year_month": "2024-03",
+      "ai_field": "Others",
+      "repo_count": 23901
+    },
+    {
+      "year_month": "2024-04",
+      "ai_field": "Computer Vision",
+      "repo_count": 193
+    },
+    {
+      "year_month": "2024-04",
+      "ai_field": "Deep Learning",
+      "repo_count": 4980
+    },
+    {
+      "year_month": "2024-04",
+      "ai_field": "General ML",
+      "repo_count": 7018
+    },
+    {
+      "year_month": "2024-04",
+      "ai_field": "LLM",
+      "repo_count": 5143
+    },
+    {
+      "year_month": "2024-04",
+      "ai_field": "NLP",
+      "repo_count": 358
+    },
+    {
+      "year_month": "2024-04",
+      "ai_field": "Others",
+      "repo_count": 20959
+    },
+    {
+      "year_month": "2024-05",
+      "ai_field": "Computer Vision",
+      "repo_count": 252
+    },
+    {
+      "year_month": "2024-05",
+      "ai_field": "Deep Learning",
+      "repo_count": 5343
+    },
+    {
+      "year_month": "2024-05",
+      "ai_field": "General ML",
+      "repo_count": 7779
+    },
+    {
+      "year_month": "2024-05",
+      "ai_field": "LLM",
+      "repo_count": 6079
+    },
+    {
+      "year_month": "2024-05",
+      "ai_field": "NLP",
+      "repo_count": 356
+    },
+    {
+      "year_month": "2024-05",
+      "ai_field": "Others",
+      "repo_count": 21645
+    },
+    {
+      "year_month": "2024-06",
+      "ai_field": "Computer Vision",
+      "repo_count": 228
+    },
+    {
+      "year_month": "2024-06",
+      "ai_field": "Deep Learning",
+      "repo_count": 5191
+    },
+    {
+      "year_month": "2024-06",
+      "ai_field": "General ML",
+      "repo_count": 8094
+    },
+    {
+      "year_month": "2024-06",
+      "ai_field": "LLM",
+      "repo_count": 5773
+    },
+    {
+      "year_month": "2024-06",
+      "ai_field": "NLP",
+      "repo_count": 399
+    },
+    {
+      "year_month": "2024-06",
+      "ai_field": "Others",
+      "repo_count": 19624
+    },
+    {
+      "year_month": "2024-07",
+      "ai_field": "Computer Vision",
+      "repo_count": 257
+    },
+    {
+      "year_month": "2024-07",
+      "ai_field": "Deep Learning",
+      "repo_count": 5438
+    },
+    {
+      "year_month": "2024-07",
+      "ai_field": "General ML",
+      "repo_count": 8721
+    },
+    {
+      "year_month": "2024-07",
+      "ai_field": "LLM",
+      "repo_count": 5846
+    },
+    {
+      "year_month": "2024-07",
+      "ai_field": "NLP",
+      "repo_count": 448
+    },
+    {
+      "year_month": "2024-07",
+      "ai_field": "Others",
+      "repo_count": 17204
+    },
+    {
+      "year_month": "2024-08",
+      "ai_field": "Computer Vision",
+      "repo_count": 250
+    },
+    {
+      "year_month": "2024-08",
+      "ai_field": "Deep Learning",
+      "repo_count": 4872
+    },
+    {
+      "year_month": "2024-08",
+      "ai_field": "General ML",
+      "repo_count": 7832
+    },
+    {
+      "year_month": "2024-08",
+      "ai_field": "LLM",
+      "repo_count": 5592
+    },
+    {
+      "year_month": "2024-08",
+      "ai_field": "NLP",
+      "repo_count": 412
+    },
+    {
+      "year_month": "2024-08",
+      "ai_field": "Others",
+      "repo_count": 15907
+    },
+    {
+      "year_month": "2024-09",
+      "ai_field": "Computer Vision",
+      "repo_count": 255
+    },
+    {
+      "year_month": "2024-09",
+      "ai_field": "Deep Learning",
+      "repo_count": 5207
+    },
+    {
+      "year_month": "2024-09",
+      "ai_field": "General ML",
+      "repo_count": 8580
+    },
+    {
+      "year_month": "2024-09",
+      "ai_field": "LLM",
+      "repo_count": 5774
+    },
+    {
+      "year_month": "2024-09",
+      "ai_field": "NLP",
+      "repo_count": 409
+    },
+    {
+      "year_month": "2024-09",
+      "ai_field": "Others",
+      "repo_count": 17020
+    },
+    {
+      "year_month": "2024-10",
+      "ai_field": "Computer Vision",
+      "repo_count": 212
+    },
+    {
+      "year_month": "2024-10",
+      "ai_field": "Deep Learning",
+      "repo_count": 5308
+    },
+    {
+      "year_month": "2024-10",
+      "ai_field": "General ML",
+      "repo_count": 8264
+    },
+    {
+      "year_month": "2024-10",
+      "ai_field": "LLM",
+      "repo_count": 6094
+    },
+    {
+      "year_month": "2024-10",
+      "ai_field": "NLP",
+      "repo_count": 421
+    },
+    {
+      "year_month": "2024-10",
+      "ai_field": "Others",
+      "repo_count": 17126
+    },
+    {
+      "year_month": "2024-11",
+      "ai_field": "Computer Vision",
+      "repo_count": 243
+    },
+    {
+      "year_month": "2024-11",
+      "ai_field": "Deep Learning",
+      "repo_count": 5255
+    },
+    {
+      "year_month": "2024-11",
+      "ai_field": "General ML",
+      "repo_count": 8253
+    },
+    {
+      "year_month": "2024-11",
+      "ai_field": "LLM",
+      "repo_count": 5957
+    },
+    {
+      "year_month": "2024-11",
+      "ai_field": "NLP",
+      "repo_count": 476
+    },
+    {
+      "year_month": "2024-11",
+      "ai_field": "Others",
+      "repo_count": 17386
+    },
+    {
+      "year_month": "2024-12",
+      "ai_field": "Computer Vision",
+      "repo_count": 242
+    },
+    {
+      "year_month": "2024-12",
+      "ai_field": "Deep Learning",
+      "repo_count": 5323
+    },
+    {
+      "year_month": "2024-12",
+      "ai_field": "General ML",
+      "repo_count": 8947
+    },
+    {
+      "year_month": "2024-12",
+      "ai_field": "LLM",
+      "repo_count": 6373
+    },
+    {
+      "year_month": "2024-12",
+      "ai_field": "NLP",
+      "repo_count": 523
+    },
+    {
+      "year_month": "2024-12",
+      "ai_field": "Others",
+      "repo_count": 17991
+    },
+    {
+      "year_month": "2025-01",
+      "ai_field": "Computer Vision",
+      "repo_count": 285
+    },
+    {
+      "year_month": "2025-01",
+      "ai_field": "Deep Learning",
+      "repo_count": 6238
+    },
+    {
+      "year_month": "2025-01",
+      "ai_field": "General ML",
+      "repo_count": 10292
+    },
+    {
+      "year_month": "2025-01",
+      "ai_field": "LLM",
+      "repo_count": 7653
+    },
+    {
+      "year_month": "2025-01",
+      "ai_field": "NLP",
+      "repo_count": 607
+    },
+    {
+      "year_month": "2025-01",
+      "ai_field": "Others",
+      "repo_count": 22289
+    },
+    {
+      "year_month": "2025-02",
+      "ai_field": "Computer Vision",
+      "repo_count": 239
+    },
+    {
+      "year_month": "2025-02",
+      "ai_field": "Deep Learning",
+      "repo_count": 6253
+    },
+    {
+      "year_month": "2025-02",
+      "ai_field": "General ML",
+      "repo_count": 10144
+    },
+    {
+      "year_month": "2025-02",
+      "ai_field": "LLM",
+      "repo_count": 8752
+    },
+    {
+      "year_month": "2025-02",
+      "ai_field": "NLP",
+      "repo_count": 666
+    },
+    {
+      "year_month": "2025-02",
+      "ai_field": "Others",
+      "repo_count": 23666
+    },
+    {
+      "year_month": "2025-03",
+      "ai_field": "Computer Vision",
+      "repo_count": 280
+    },
+    {
+      "year_month": "2025-03",
+      "ai_field": "Deep Learning",
+      "repo_count": 7019
+    },
+    {
+      "year_month": "2025-03",
+      "ai_field": "General ML",
+      "repo_count": 10975
+    },
+    {
+      "year_month": "2025-03",
+      "ai_field": "LLM",
+      "repo_count": 10222
+    },
+    {
+      "year_month": "2025-03",
+      "ai_field": "NLP",
+      "repo_count": 683
+    },
+    {
+      "year_month": "2025-03",
+      "ai_field": "Others",
+      "repo_count": 28666
+    },
+    {
+      "year_month": "2025-04",
+      "ai_field": "Computer Vision",
+      "repo_count": 244
+    },
+    {
+      "year_month": "2025-04",
+      "ai_field": "Deep Learning",
+      "repo_count": 7195
+    },
+    {
+      "year_month": "2025-04",
+      "ai_field": "General ML",
+      "repo_count": 10530
+    },
+    {
+      "year_month": "2025-04",
+      "ai_field": "LLM",
+      "repo_count": 11100
+    },
+    {
+      "year_month": "2025-04",
+      "ai_field": "NLP",
+      "repo_count": 677
+    },
+    {
+      "year_month": "2025-04",
+      "ai_field": "Others",
+      "repo_count": 30549
+    },
+    {
+      "year_month": "2025-05",
+      "ai_field": "Computer Vision",
+      "repo_count": 227
+    },
+    {
+      "year_month": "2025-05",
+      "ai_field": "Deep Learning",
+      "repo_count": 7455
+    },
+    {
+      "year_month": "2025-05",
+      "ai_field": "General ML",
+      "repo_count": 10406
+    },
+    {
+      "year_month": "2025-05",
+      "ai_field": "LLM",
+      "repo_count": 11992
+    },
+    {
+      "year_month": "2025-05",
+      "ai_field": "NLP",
+      "repo_count": 654
+    },
+    {
+      "year_month": "2025-05",
+      "ai_field": "Others",
+      "repo_count": 34039
+    },
+    {
+      "year_month": "2025-06",
+      "ai_field": "Computer Vision",
+      "repo_count": 203
+    },
+    {
+      "year_month": "2025-06",
+      "ai_field": "Deep Learning",
+      "repo_count": 6986
+    },
+    {
+      "year_month": "2025-06",
+      "ai_field": "General ML",
+      "repo_count": 10125
+    },
+    {
+      "year_month": "2025-06",
+      "ai_field": "LLM",
+      "repo_count": 13129
+    },
+    {
+      "year_month": "2025-06",
+      "ai_field": "NLP",
+      "repo_count": 679
+    },
+    {
+      "year_month": "2025-06",
+      "ai_field": "Others",
+      "repo_count": 38311
+    },
+    {
+      "year_month": "2025-07",
+      "ai_field": "Computer Vision",
+      "repo_count": 191
+    },
+    {
+      "year_month": "2025-07",
+      "ai_field": "Deep Learning",
+      "repo_count": 7490
+    },
+    {
+      "year_month": "2025-07",
+      "ai_field": "General ML",
+      "repo_count": 11569
+    },
+    {
+      "year_month": "2025-07",
+      "ai_field": "LLM",
+      "repo_count": 14543
+    },
+    {
+      "year_month": "2025-07",
+      "ai_field": "NLP",
+      "repo_count": 735
+    },
+    {
+      "year_month": "2025-07",
+      "ai_field": "Others",
+      "repo_count": 40010
+    },
+    {
+      "year_month": "2025-08",
+      "ai_field": "Computer Vision",
+      "repo_count": 216
+    },
+    {
+      "year_month": "2025-08",
+      "ai_field": "Deep Learning",
+      "repo_count": 7755
+    },
+    {
+      "year_month": "2025-08",
+      "ai_field": "General ML",
+      "repo_count": 11755
+    },
+    {
+      "year_month": "2025-08",
+      "ai_field": "LLM",
+      "repo_count": 15799
+    },
+    {
+      "year_month": "2025-08",
+      "ai_field": "NLP",
+      "repo_count": 707
+    },
+    {
+      "year_month": "2025-08",
+      "ai_field": "Others",
+      "repo_count": 42028
+    },
+    {
+      "year_month": "2025-09",
+      "ai_field": "Computer Vision",
+      "repo_count": 152
+    },
+    {
+      "year_month": "2025-09",
+      "ai_field": "Deep Learning",
+      "repo_count": 7063
+    },
+    {
+      "year_month": "2025-09",
+      "ai_field": "General ML",
+      "repo_count": 9635
+    },
+    {
+      "year_month": "2025-09",
+      "ai_field": "LLM",
+      "repo_count": 13585
+    },
+    {
+      "year_month": "2025-09",
+      "ai_field": "NLP",
+      "repo_count": 546
+    },
+    {
+      "year_month": "2025-09",
+      "ai_field": "Others",
+      "repo_count": 41458
+    },
+    {
+      "year_month": "2025-10",
+      "ai_field": "Computer Vision",
+      "repo_count": 160
+    },
+    {
+      "year_month": "2025-10",
+      "ai_field": "Deep Learning",
+      "repo_count": 6940
+    },
+    {
+      "year_month": "2025-10",
+      "ai_field": "General ML",
+      "repo_count": 9728
+    },
+    {
+      "year_month": "2025-10",
+      "ai_field": "LLM",
+      "repo_count": 14400
+    },
+    {
+      "year_month": "2025-10",
+      "ai_field": "NLP",
+      "repo_count": 511
+    },
+    {
+      "year_month": "2025-10",
+      "ai_field": "Others",
+      "repo_count": 47021
+    },
+    {
+      "year_month": "2025-11",
+      "ai_field": "Computer Vision",
+      "repo_count": 57
+    },
+    {
+      "year_month": "2025-11",
+      "ai_field": "Deep Learning",
+      "repo_count": 2639
+    },
+    {
+      "year_month": "2025-11",
+      "ai_field": "General ML",
+      "repo_count": 3232
+    },
+    {
+      "year_month": "2025-11",
+      "ai_field": "LLM",
+      "repo_count": 4755
+    },
+    {
+      "year_month": "2025-11",
+      "ai_field": "NLP",
+      "repo_count": 177
+    },
+    {
+      "year_month": "2025-11",
+      "ai_field": "Others",
+      "repo_count": 20774
+    }
+  ],
+  "by_keyword": [
+    {
+      "year_month": "2021-01",
+      "keyword": "AI Agent",
+      "repo_count": 15
+    },
+    {
+      "year_month": "2021-01",
+      "keyword": "Autonomous",
+      "repo_count": 23
+    },
+    {
+      "year_month": "2021-02",
+      "keyword": "AI Agent",
+      "repo_count": 16
+    },
+    {
+      "year_month": "2021-02",
+      "keyword": "Autonomous",
+      "repo_count": 31
+    },
+    {
+      "year_month": "2021-03",
+      "keyword": "AI Agent",
+      "repo_count": 21
+    },
+    {
+      "year_month": "2021-03",
+      "keyword": "Autonomous",
+      "repo_count": 38
+    },
+    {
+      "year_month": "2021-04",
+      "keyword": "AI Agent",
+      "repo_count": 26
+    },
+    {
+      "year_month": "2021-04",
+      "keyword": "Autonomous",
+      "repo_count": 28
+    },
+    {
+      "year_month": "2021-05",
+      "keyword": "AI Agent",
+      "repo_count": 15
+    },
+    {
+      "year_month": "2021-05",
+      "keyword": "Autonomous",
+      "repo_count": 35
+    },
+    {
+      "year_month": "2021-06",
+      "keyword": "AI Agent",
+      "repo_count": 14
+    },
+    {
+      "year_month": "2021-06",
+      "keyword": "Autonomous",
+      "repo_count": 35
+    },
+    {
+      "year_month": "2021-07",
+      "keyword": "AI Agent",
+      "repo_count": 13
+    },
+    {
+      "year_month": "2021-07",
+      "keyword": "Autonomous",
+      "repo_count": 37
+    },
+    {
+      "year_month": "2021-08",
+      "keyword": "AI Agent",
+      "repo_count": 15
+    },
+    {
+      "year_month": "2021-08",
+      "keyword": "Autonomous",
+      "repo_count": 37
+    },
+    {
+      "year_month": "2021-09",
+      "keyword": "AI Agent",
+      "repo_count": 16
+    },
+    {
+      "year_month": "2021-09",
+      "keyword": "Autonomous",
+      "repo_count": 35
+    },
+    {
+      "year_month": "2021-10",
+      "keyword": "AI Agent",
+      "repo_count": 21
+    },
+    {
+      "year_month": "2021-10",
+      "keyword": "Autonomous",
+      "repo_count": 31
+    },
+    {
+      "year_month": "2021-11",
+      "keyword": "AI Agent",
+      "repo_count": 17
+    },
+    {
+      "year_month": "2021-11",
+      "keyword": "Autonomous",
+      "repo_count": 42
+    },
+    {
+      "year_month": "2021-12",
+      "keyword": "AI Agent",
+      "repo_count": 23
+    },
+    {
+      "year_month": "2021-12",
+      "keyword": "Autonomous",
+      "repo_count": 26
+    },
+    {
+      "year_month": "2022-01",
+      "keyword": "AI Agent",
+      "repo_count": 21
+    },
+    {
+      "year_month": "2022-01",
+      "keyword": "Autonomous",
+      "repo_count": 22
+    },
+    {
+      "year_month": "2022-02",
+      "keyword": "AI Agent",
+      "repo_count": 22
+    },
+    {
+      "year_month": "2022-02",
+      "keyword": "Autonomous",
+      "repo_count": 28
+    },
+    {
+      "year_month": "2022-03",
+      "keyword": "AI Agent",
+      "repo_count": 27
+    },
+    {
+      "year_month": "2022-03",
+      "keyword": "Autonomous",
+      "repo_count": 44
+    },
+    {
+      "year_month": "2022-04",
+      "keyword": "AI Agent",
+      "repo_count": 26
+    },
+    {
+      "year_month": "2022-04",
+      "keyword": "Autonomous",
+      "repo_count": 35
+    },
+    {
+      "year_month": "2022-05",
+      "keyword": "AI Agent",
+      "repo_count": 16
+    },
+    {
+      "year_month": "2022-05",
+      "keyword": "Autonomous",
+      "repo_count": 50
+    },
+    {
+      "year_month": "2022-06",
+      "keyword": "AI Agent",
+      "repo_count": 21
+    },
+    {
+      "year_month": "2022-06",
+      "keyword": "Autonomous",
+      "repo_count": 38
+    },
+    {
+      "year_month": "2022-07",
+      "keyword": "AI Agent",
+      "repo_count": 18
+    },
+    {
+      "year_month": "2022-07",
+      "keyword": "Autonomous",
+      "repo_count": 37
+    },
+    {
+      "year_month": "2022-08",
+      "keyword": "AI Agent",
+      "repo_count": 19
+    },
+    {
+      "year_month": "2022-08",
+      "keyword": "Autonomous",
+      "repo_count": 27
+    },
+    {
+      "year_month": "2022-09",
+      "keyword": "AI Agent",
+      "repo_count": 21
+    },
+    {
+      "year_month": "2022-09",
+      "keyword": "Autonomous",
+      "repo_count": 27
+    },
+    {
+      "year_month": "2022-10",
+      "keyword": "AI Agent",
+      "repo_count": 20
+    },
+    {
+      "year_month": "2022-10",
+      "keyword": "Autonomous",
+      "repo_count": 30
+    },
+    {
+      "year_month": "2022-11",
+      "keyword": "AI Agent",
+      "repo_count": 28
+    },
+    {
+      "year_month": "2022-11",
+      "keyword": "Autonomous",
+      "repo_count": 31
+    },
+    {
+      "year_month": "2022-12",
+      "keyword": "AI Agent",
+      "repo_count": 22
+    },
+    {
+      "year_month": "2022-12",
+      "keyword": "Autonomous",
+      "repo_count": 29
+    },
+    {
+      "year_month": "2023-01",
+      "keyword": "AI Agent",
+      "repo_count": 29
+    },
+    {
+      "year_month": "2023-01",
+      "keyword": "Autonomous",
+      "repo_count": 27
+    },
+    {
+      "year_month": "2023-02",
+      "keyword": "AI Agent",
+      "repo_count": 35
+    },
+    {
+      "year_month": "2023-02",
+      "keyword": "Autonomous",
+      "repo_count": 38
+    },
+    {
+      "year_month": "2023-03",
+      "keyword": "AI Agent",
+      "repo_count": 37
+    },
+    {
+      "year_month": "2023-03",
+      "keyword": "Autonomous",
+      "repo_count": 59
+    },
+    {
+      "year_month": "2023-04",
+      "keyword": "AI Agent",
+      "repo_count": 122
+    },
+    {
+      "year_month": "2023-04",
+      "keyword": "Autonomous",
+      "repo_count": 110
+    },
+    {
+      "year_month": "2023-05",
+      "keyword": "AI Agent",
+      "repo_count": 109
+    },
+    {
+      "year_month": "2023-05",
+      "keyword": "Autonomous",
+      "repo_count": 97
+    },
+    {
+      "year_month": "2023-06",
+      "keyword": "AI Agent",
+      "repo_count": 75
+    },
+    {
+      "year_month": "2023-06",
+      "keyword": "Autonomous",
+      "repo_count": 64
+    },
+    {
+      "year_month": "2023-07",
+      "keyword": "AI Agent",
+      "repo_count": 98
+    },
+    {
+      "year_month": "2023-07",
+      "keyword": "Autonomous",
+      "repo_count": 55
+    },
+    {
+      "year_month": "2023-08",
+      "keyword": "AI Agent",
+      "repo_count": 96
+    },
+    {
+      "year_month": "2023-08",
+      "keyword": "Autonomous",
+      "repo_count": 81
+    },
+    {
+      "year_month": "2023-09",
+      "keyword": "AI Agent",
+      "repo_count": 93
+    },
+    {
+      "year_month": "2023-09",
+      "keyword": "Autonomous",
+      "repo_count": 57
+    },
+    {
+      "year_month": "2023-10",
+      "keyword": "AI Agent",
+      "repo_count": 123
+    },
+    {
+      "year_month": "2023-10",
+      "keyword": "Autonomous",
+      "repo_count": 77
+    },
+    {
+      "year_month": "2023-10",
+      "keyword": "Vibe Coding",
+      "repo_count": 1
+    },
+    {
+      "year_month": "2023-11",
+      "keyword": "AI Agent",
+      "repo_count": 97
+    },
+    {
+      "year_month": "2023-11",
+      "keyword": "Autonomous",
+      "repo_count": 71
+    },
+    {
+      "year_month": "2023-11",
+      "keyword": "Vibe Coding",
+      "repo_count": 1
+    },
+    {
+      "year_month": "2023-12",
+      "keyword": "AI Agent",
+      "repo_count": 98
+    },
+    {
+      "year_month": "2023-12",
+      "keyword": "Autonomous",
+      "repo_count": 80
+    },
+    {
+      "year_month": "2024-01",
+      "keyword": "AI Agent",
+      "repo_count": 127
+    },
+    {
+      "year_month": "2024-01",
+      "keyword": "Autonomous",
+      "repo_count": 67
+    },
+    {
+      "year_month": "2024-02",
+      "keyword": "AI Agent",
+      "repo_count": 110
+    },
+    {
+      "year_month": "2024-02",
+      "keyword": "Autonomous",
+      "repo_count": 81
+    },
+    {
+      "year_month": "2024-03",
+      "keyword": "AI Agent",
+      "repo_count": 152
+    },
+    {
+      "year_month": "2024-03",
+      "keyword": "Autonomous",
+      "repo_count": 80
+    },
+    {
+      "year_month": "2024-03",
+      "keyword": "Vibe Coding",
+      "repo_count": 1
+    },
+    {
+      "year_month": "2024-04",
+      "keyword": "AI Agent",
+      "repo_count": 218
+    },
+    {
+      "year_month": "2024-04",
+      "keyword": "Autonomous",
+      "repo_count": 69
+    },
+    {
+      "year_month": "2024-05",
+      "keyword": "AI Agent",
+      "repo_count": 288
+    },
+    {
+      "year_month": "2024-05",
+      "keyword": "Autonomous",
+      "repo_count": 79
+    },
+    {
+      "year_month": "2024-05",
+      "keyword": "Vibe Coding",
+      "repo_count": 2
+    },
+    {
+      "year_month": "2024-06",
+      "keyword": "AI Agent",
+      "repo_count": 321
+    },
+    {
+      "year_month": "2024-06",
+      "keyword": "Autonomous",
+      "repo_count": 82
+    },
+    {
+      "year_month": "2024-07",
+      "keyword": "AI Agent",
+      "repo_count": 302
+    },
+    {
+      "year_month": "2024-07",
+      "keyword": "Autonomous",
+      "repo_count": 104
+    },
+    {
+      "year_month": "2024-07",
+      "keyword": "Vibe Coding",
+      "repo_count": 2
+    },
+    {
+      "year_month": "2024-08",
+      "keyword": "AI Agent",
+      "repo_count": 330
+    },
+    {
+      "year_month": "2024-08",
+      "keyword": "Autonomous",
+      "repo_count": 90
+    },
+    {
+      "year_month": "2024-09",
+      "keyword": "AI Agent",
+      "repo_count": 388
+    },
+    {
+      "year_month": "2024-09",
+      "keyword": "Autonomous",
+      "repo_count": 101
+    },
+    {
+      "year_month": "2024-10",
+      "keyword": "AI Agent",
+      "repo_count": 408
+    },
+    {
+      "year_month": "2024-10",
+      "keyword": "Autonomous",
+      "repo_count": 113
+    },
+    {
+      "year_month": "2024-11",
+      "keyword": "AI Agent",
+      "repo_count": 580
+    },
+    {
+      "year_month": "2024-11",
+      "keyword": "Autonomous",
+      "repo_count": 116
+    },
+    {
+      "year_month": "2024-11",
+      "keyword": "Vibe Coding",
+      "repo_count": 2
+    },
+    {
+      "year_month": "2024-12",
+      "keyword": "AI Agent",
+      "repo_count": 846
+    },
+    {
+      "year_month": "2024-12",
+      "keyword": "Autonomous",
+      "repo_count": 141
+    },
+    {
+      "year_month": "2025-01",
+      "keyword": "AI Agent",
+      "repo_count": 1752
+    },
+    {
+      "year_month": "2025-01",
+      "keyword": "Autonomous",
+      "repo_count": 185
+    },
+    {
+      "year_month": "2025-02",
+      "keyword": "AI Agent",
+      "repo_count": 1693
+    },
+    {
+      "year_month": "2025-02",
+      "keyword": "Autonomous",
+      "repo_count": 221
+    },
+    {
+      "year_month": "2025-03",
+      "keyword": "AI Agent",
+      "repo_count": 2035
+    },
+    {
+      "year_month": "2025-03",
+      "keyword": "Autonomous",
+      "repo_count": 223
+    },
+    {
+      "year_month": "2025-03",
+      "keyword": "Vibe Coding",
+      "repo_count": 22
+    },
+    {
+      "year_month": "2025-04",
+      "keyword": "AI Agent",
+      "repo_count": 2450
+    },
+    {
+      "year_month": "2025-04",
+      "keyword": "Autonomous",
+      "repo_count": 282
+    },
+    {
+      "year_month": "2025-04",
+      "keyword": "Vibe Coding",
+      "repo_count": 24
+    },
+    {
+      "year_month": "2025-05",
+      "keyword": "AI Agent",
+      "repo_count": 2514
+    },
+    {
+      "year_month": "2025-05",
+      "keyword": "Autonomous",
+      "repo_count": 336
+    },
+    {
+      "year_month": "2025-05",
+      "keyword": "Vibe Coding",
+      "repo_count": 20
+    },
+    {
+      "year_month": "2025-06",
+      "keyword": "AI Agent",
+      "repo_count": 3397
+    },
+    {
+      "year_month": "2025-06",
+      "keyword": "Autonomous",
+      "repo_count": 402
+    },
+    {
+      "year_month": "2025-06",
+      "keyword": "Vibe Coding",
+      "repo_count": 26
+    },
+    {
+      "year_month": "2025-07",
+      "keyword": "AI Agent",
+      "repo_count": 3721
+    },
+    {
+      "year_month": "2025-07",
+      "keyword": "Autonomous",
+      "repo_count": 456
+    },
+    {
+      "year_month": "2025-07",
+      "keyword": "Vibe Coding",
+      "repo_count": 20
+    },
+    {
+      "year_month": "2025-08",
+      "keyword": "AI Agent",
+      "repo_count": 4389
+    },
+    {
+      "year_month": "2025-08",
+      "keyword": "Autonomous",
+      "repo_count": 503
+    },
+    {
+      "year_month": "2025-08",
+      "keyword": "Vibe Coding",
+      "repo_count": 31
+    },
+    {
+      "year_month": "2025-09",
+      "keyword": "AI Agent",
+      "repo_count": 4036
+    },
+    {
+      "year_month": "2025-09",
+      "keyword": "Autonomous",
+      "repo_count": 504
+    },
+    {
+      "year_month": "2025-09",
+      "keyword": "Vibe Coding",
+      "repo_count": 28
+    },
+    {
+      "year_month": "2025-10",
+      "keyword": "AI Agent",
+      "repo_count": 4189
+    },
+    {
+      "year_month": "2025-10",
+      "keyword": "Autonomous",
+      "repo_count": 728
+    },
+    {
+      "year_month": "2025-10",
+      "keyword": "Vibe Coding",
+      "repo_count": 25
+    },
+    {
+      "year_month": "2025-11",
+      "keyword": "AI Agent",
+      "repo_count": 1543
+    },
+    {
+      "year_month": "2025-11",
+      "keyword": "Autonomous",
+      "repo_count": 263
+    },
+    {
+      "year_month": "2025-11",
+      "keyword": "Vibe Coding",
+      "repo_count": 2
+    }
+  ],
+  "by_language": [
+    {
+      "year_month": "2021-01",
+      "language": "C#",
+      "repo_count": 79
+    },
+    {
+      "year_month": "2021-01",
+      "language": "C++",
+      "repo_count": 148
+    },
+    {
+      "year_month": "2021-01",
+      "language": "CSS",
+      "repo_count": 43
+    },
+    {
+      "year_month": "2021-01",
+      "language": "HTML",
+      "repo_count": 413
+    },
+    {
+      "year_month": "2021-01",
+      "language": "Java",
+      "repo_count": 141
+    },
+    {
+      "year_month": "2021-01",
+      "language": "JavaScript",
+      "repo_count": 188
+    },
+    {
+      "year_month": "2021-01",
+      "language": "Jupyter Notebook",
+      "repo_count": 6619
+    },
+    {
+      "year_month": "2021-01",
+      "language": "Python",
+      "repo_count": 3289
+    },
+    {
+      "year_month": "2021-01",
+      "language": "R",
+      "repo_count": 170
+    },
+    {
+      "year_month": "2021-01",
+      "language": "TypeScript",
+      "repo_count": 34
+    },
+    {
+      "year_month": "2021-02",
+      "language": "C#",
+      "repo_count": 68
+    },
+    {
+      "year_month": "2021-02",
+      "language": "C++",
+      "repo_count": 112
+    },
+    {
+      "year_month": "2021-02",
+      "language": "CSS",
+      "repo_count": 39
+    },
+    {
+      "year_month": "2021-02",
+      "language": "HTML",
+      "repo_count": 379
+    },
+    {
+      "year_month": "2021-02",
+      "language": "Java",
+      "repo_count": 110
+    },
+    {
+      "year_month": "2021-02",
+      "language": "JavaScript",
+      "repo_count": 195
+    },
+    {
+      "year_month": "2021-02",
+      "language": "Jupyter Notebook",
+      "repo_count": 6089
+    },
+    {
+      "year_month": "2021-02",
+      "language": "Python",
+      "repo_count": 2851
+    },
+    {
+      "year_month": "2021-02",
+      "language": "R",
+      "repo_count": 148
+    },
+    {
+      "year_month": "2021-02",
+      "language": "TypeScript",
+      "repo_count": 37
+    },
+    {
+      "year_month": "2021-03",
+      "language": "C#",
+      "repo_count": 93
+    },
+    {
+      "year_month": "2021-03",
+      "language": "C++",
+      "repo_count": 148
+    },
+    {
+      "year_month": "2021-03",
+      "language": "CSS",
+      "repo_count": 28
+    },
+    {
+      "year_month": "2021-03",
+      "language": "HTML",
+      "repo_count": 455
+    },
+    {
+      "year_month": "2021-03",
+      "language": "Java",
+      "repo_count": 142
+    },
+    {
+      "year_month": "2021-03",
+      "language": "JavaScript",
+      "repo_count": 178
+    },
+    {
+      "year_month": "2021-03",
+      "language": "Jupyter Notebook",
+      "repo_count": 6764
+    },
+    {
+      "year_month": "2021-03",
+      "language": "Python",
+      "repo_count": 3255
+    },
+    {
+      "year_month": "2021-03",
+      "language": "R",
+      "repo_count": 158
+    },
+    {
+      "year_month": "2021-03",
+      "language": "TypeScript",
+      "repo_count": 28
+    },
+    {
+      "year_month": "2021-04",
+      "language": "C#",
+      "repo_count": 94
+    },
+    {
+      "year_month": "2021-04",
+      "language": "C++",
+      "repo_count": 159
+    },
+    {
+      "year_month": "2021-04",
+      "language": "CSS",
+      "repo_count": 35
+    },
+    {
+      "year_month": "2021-04",
+      "language": "HTML",
+      "repo_count": 399
+    },
+    {
+      "year_month": "2021-04",
+      "language": "Java",
+      "repo_count": 124
+    },
+    {
+      "year_month": "2021-04",
+      "language": "JavaScript",
+      "repo_count": 177
+    },
+    {
+      "year_month": "2021-04",
+      "language": "Jupyter Notebook",
+      "repo_count": 6620
+    },
+    {
+      "year_month": "2021-04",
+      "language": "Python",
+      "repo_count": 3242
+    },
+    {
+      "year_month": "2021-04",
+      "language": "R",
+      "repo_count": 136
+    },
+    {
+      "year_month": "2021-04",
+      "language": "TypeScript",
+      "repo_count": 29
+    },
+    {
+      "year_month": "2021-05",
+      "language": "C#",
+      "repo_count": 81
+    },
+    {
+      "year_month": "2021-05",
+      "language": "C++",
+      "repo_count": 144
+    },
+    {
+      "year_month": "2021-05",
+      "language": "CSS",
+      "repo_count": 37
+    },
+    {
+      "year_month": "2021-05",
+      "language": "HTML",
+      "repo_count": 379
+    },
+    {
+      "year_month": "2021-05",
+      "language": "Java",
+      "repo_count": 116
+    },
+    {
+      "year_month": "2021-05",
+      "language": "JavaScript",
+      "repo_count": 176
+    },
+    {
+      "year_month": "2021-05",
+      "language": "Jupyter Notebook",
+      "repo_count": 8226
+    },
+    {
+      "year_month": "2021-05",
+      "language": "Python",
+      "repo_count": 3290
+    },
+    {
+      "year_month": "2021-05",
+      "language": "R",
+      "repo_count": 154
+    },
+    {
+      "year_month": "2021-05",
+      "language": "TypeScript",
+      "repo_count": 31
+    },
+    {
+      "year_month": "2021-06",
+      "language": "C#",
+      "repo_count": 68
+    },
+    {
+      "year_month": "2021-06",
+      "language": "C++",
+      "repo_count": 113
+    },
+    {
+      "year_month": "2021-06",
+      "language": "CSS",
+      "repo_count": 32
+    },
+    {
+      "year_month": "2021-06",
+      "language": "HTML",
+      "repo_count": 404
+    },
+    {
+      "year_month": "2021-06",
+      "language": "Java",
+      "repo_count": 86
+    },
+    {
+      "year_month": "2021-06",
+      "language": "JavaScript",
+      "repo_count": 145
+    },
+    {
+      "year_month": "2021-06",
+      "language": "Jupyter Notebook",
+      "repo_count": 8823
+    },
+    {
+      "year_month": "2021-06",
+      "language": "Python",
+      "repo_count": 3220
+    },
+    {
+      "year_month": "2021-06",
+      "language": "R",
+      "repo_count": 135
+    },
+    {
+      "year_month": "2021-06",
+      "language": "TypeScript",
+      "repo_count": 25
+    },
+    {
+      "year_month": "2021-07",
+      "language": "C#",
+      "repo_count": 95
+    },
+    {
+      "year_month": "2021-07",
+      "language": "C++",
+      "repo_count": 121
+    },
+    {
+      "year_month": "2021-07",
+      "language": "CSS",
+      "repo_count": 44
+    },
+    {
+      "year_month": "2021-07",
+      "language": "HTML",
+      "repo_count": 357
+    },
+    {
+      "year_month": "2021-07",
+      "language": "Java",
+      "repo_count": 97
+    },
+    {
+      "year_month": "2021-07",
+      "language": "JavaScript",
+      "repo_count": 218
+    },
+    {
+      "year_month": "2021-07",
+      "language": "Jupyter Notebook",
+      "repo_count": 7897
+    },
+    {
+      "year_month": "2021-07",
+      "language": "Python",
+      "repo_count": 2937
+    },
+    {
+      "year_month": "2021-07",
+      "language": "R",
+      "repo_count": 134
+    },
+    {
+      "year_month": "2021-07",
+      "language": "TypeScript",
+      "repo_count": 33
+    },
+    {
+      "year_month": "2021-08",
+      "language": "C#",
+      "repo_count": 83
+    },
+    {
+      "year_month": "2021-08",
+      "language": "C++",
+      "repo_count": 109
+    },
+    {
+      "year_month": "2021-08",
+      "language": "CSS",
+      "repo_count": 31
+    },
+    {
+      "year_month": "2021-08",
+      "language": "HTML",
+      "repo_count": 350
+    },
+    {
+      "year_month": "2021-08",
+      "language": "Java",
+      "repo_count": 99
+    },
+    {
+      "year_month": "2021-08",
+      "language": "JavaScript",
+      "repo_count": 120
+    },
+    {
+      "year_month": "2021-08",
+      "language": "Jupyter Notebook",
+      "repo_count": 6851
+    },
+    {
+      "year_month": "2021-08",
+      "language": "Python",
+      "repo_count": 2730
+    },
+    {
+      "year_month": "2021-08",
+      "language": "R",
+      "repo_count": 119
+    },
+    {
+      "year_month": "2021-08",
+      "language": "TypeScript",
+      "repo_count": 27
+    },
+    {
+      "year_month": "2021-09",
+      "language": "C#",
+      "repo_count": 57
+    },
+    {
+      "year_month": "2021-09",
+      "language": "C++",
+      "repo_count": 112
+    },
+    {
+      "year_month": "2021-09",
+      "language": "CSS",
+      "repo_count": 39
+    },
+    {
+      "year_month": "2021-09",
+      "language": "HTML",
+      "repo_count": 348
+    },
+    {
+      "year_month": "2021-09",
+      "language": "Java",
+      "repo_count": 83
+    },
+    {
+      "year_month": "2021-09",
+      "language": "JavaScript",
+      "repo_count": 152
+    },
+    {
+      "year_month": "2021-09",
+      "language": "Jupyter Notebook",
+      "repo_count": 6672
+    },
+    {
+      "year_month": "2021-09",
+      "language": "Python",
+      "repo_count": 2720
+    },
+    {
+      "year_month": "2021-09",
+      "language": "R",
+      "repo_count": 144
+    },
+    {
+      "year_month": "2021-09",
+      "language": "TypeScript",
+      "repo_count": 34
+    },
+    {
+      "year_month": "2021-10",
+      "language": "C#",
+      "repo_count": 75
+    },
+    {
+      "year_month": "2021-10",
+      "language": "C++",
+      "repo_count": 118
+    },
+    {
+      "year_month": "2021-10",
+      "language": "CSS",
+      "repo_count": 45
+    },
+    {
+      "year_month": "2021-10",
+      "language": "HTML",
+      "repo_count": 426
+    },
+    {
+      "year_month": "2021-10",
+      "language": "Java",
+      "repo_count": 139
+    },
+    {
+      "year_month": "2021-10",
+      "language": "JavaScript",
+      "repo_count": 129
+    },
+    {
+      "year_month": "2021-10",
+      "language": "Jupyter Notebook",
+      "repo_count": 6704
+    },
+    {
+      "year_month": "2021-10",
+      "language": "Python",
+      "repo_count": 2978
+    },
+    {
+      "year_month": "2021-10",
+      "language": "R",
+      "repo_count": 118
+    },
+    {
+      "year_month": "2021-10",
+      "language": "TypeScript",
+      "repo_count": 26
+    },
+    {
+      "year_month": "2021-11",
+      "language": "C#",
+      "repo_count": 70
+    },
+    {
+      "year_month": "2021-11",
+      "language": "C++",
+      "repo_count": 119
+    },
+    {
+      "year_month": "2021-11",
+      "language": "CSS",
+      "repo_count": 44
+    },
+    {
+      "year_month": "2021-11",
+      "language": "HTML",
+      "repo_count": 356
+    },
+    {
+      "year_month": "2021-11",
+      "language": "Java",
+      "repo_count": 112
+    },
+    {
+      "year_month": "2021-11",
+      "language": "JavaScript",
+      "repo_count": 153
+    },
+    {
+      "year_month": "2021-11",
+      "language": "Jupyter Notebook",
+      "repo_count": 6713
+    },
+    {
+      "year_month": "2021-11",
+      "language": "Python",
+      "repo_count": 3038
+    },
+    {
+      "year_month": "2021-11",
+      "language": "R",
+      "repo_count": 120
+    },
+    {
+      "year_month": "2021-11",
+      "language": "TypeScript",
+      "repo_count": 28
+    },
+    {
+      "year_month": "2021-12",
+      "language": "C#",
+      "repo_count": 70
+    },
+    {
+      "year_month": "2021-12",
+      "language": "C++",
+      "repo_count": 133
+    },
+    {
+      "year_month": "2021-12",
+      "language": "CSS",
+      "repo_count": 38
+    },
+    {
+      "year_month": "2021-12",
+      "language": "HTML",
+      "repo_count": 307
+    },
+    {
+      "year_month": "2021-12",
+      "language": "Java",
+      "repo_count": 126
+    },
+    {
+      "year_month": "2021-12",
+      "language": "JavaScript",
+      "repo_count": 153
+    },
+    {
+      "year_month": "2021-12",
+      "language": "Jupyter Notebook",
+      "repo_count": 6580
+    },
+    {
+      "year_month": "2021-12",
+      "language": "Python",
+      "repo_count": 2797
+    },
+    {
+      "year_month": "2021-12",
+      "language": "R",
+      "repo_count": 124
+    },
+    {
+      "year_month": "2021-12",
+      "language": "TypeScript",
+      "repo_count": 34
+    },
+    {
+      "year_month": "2022-01",
+      "language": "C#",
+      "repo_count": 58
+    },
+    {
+      "year_month": "2022-01",
+      "language": "C++",
+      "repo_count": 137
+    },
+    {
+      "year_month": "2022-01",
+      "language": "CSS",
+      "repo_count": 43
+    },
+    {
+      "year_month": "2022-01",
+      "language": "HTML",
+      "repo_count": 393
+    },
+    {
+      "year_month": "2022-01",
+      "language": "Java",
+      "repo_count": 114
+    },
+    {
+      "year_month": "2022-01",
+      "language": "JavaScript",
+      "repo_count": 119
+    },
+    {
+      "year_month": "2022-01",
+      "language": "Jupyter Notebook",
+      "repo_count": 7582
+    },
+    {
+      "year_month": "2022-01",
+      "language": "Python",
+      "repo_count": 2995
+    },
+    {
+      "year_month": "2022-01",
+      "language": "R",
+      "repo_count": 137
+    },
+    {
+      "year_month": "2022-01",
+      "language": "TypeScript",
+      "repo_count": 27
+    },
+    {
+      "year_month": "2022-02",
+      "language": "C#",
+      "repo_count": 69
+    },
+    {
+      "year_month": "2022-02",
+      "language": "C++",
+      "repo_count": 107
+    },
+    {
+      "year_month": "2022-02",
+      "language": "CSS",
+      "repo_count": 31
+    },
+    {
+      "year_month": "2022-02",
+      "language": "HTML",
+      "repo_count": 366
+    },
+    {
+      "year_month": "2022-02",
+      "language": "Java",
+      "repo_count": 104
+    },
+    {
+      "year_month": "2022-02",
+      "language": "JavaScript",
+      "repo_count": 136
+    },
+    {
+      "year_month": "2022-02",
+      "language": "Jupyter Notebook",
+      "repo_count": 6895
+    },
+    {
+      "year_month": "2022-02",
+      "language": "Python",
+      "repo_count": 2827
+    },
+    {
+      "year_month": "2022-02",
+      "language": "R",
+      "repo_count": 110
+    },
+    {
+      "year_month": "2022-02",
+      "language": "TypeScript",
+      "repo_count": 29
+    },
+    {
+      "year_month": "2022-03",
+      "language": "C#",
+      "repo_count": 88
+    },
+    {
+      "year_month": "2022-03",
+      "language": "C++",
+      "repo_count": 157
+    },
+    {
+      "year_month": "2022-03",
+      "language": "CSS",
+      "repo_count": 40
+    },
+    {
+      "year_month": "2022-03",
+      "language": "HTML",
+      "repo_count": 365
+    },
+    {
+      "year_month": "2022-03",
+      "language": "Java",
+      "repo_count": 93
+    },
+    {
+      "year_month": "2022-03",
+      "language": "JavaScript",
+      "repo_count": 165
+    },
+    {
+      "year_month": "2022-03",
+      "language": "Jupyter Notebook",
+      "repo_count": 7477
+    },
+    {
+      "year_month": "2022-03",
+      "language": "Python",
+      "repo_count": 3214
+    },
+    {
+      "year_month": "2022-03",
+      "language": "R",
+      "repo_count": 150
+    },
+    {
+      "year_month": "2022-03",
+      "language": "TypeScript",
+      "repo_count": 24
+    },
+    {
+      "year_month": "2022-04",
+      "language": "C#",
+      "repo_count": 71
+    },
+    {
+      "year_month": "2022-04",
+      "language": "C++",
+      "repo_count": 128
+    },
+    {
+      "year_month": "2022-04",
+      "language": "CSS",
+      "repo_count": 40
+    },
+    {
+      "year_month": "2022-04",
+      "language": "HTML",
+      "repo_count": 337
+    },
+    {
+      "year_month": "2022-04",
+      "language": "Java",
+      "repo_count": 115
+    },
+    {
+      "year_month": "2022-04",
+      "language": "JavaScript",
+      "repo_count": 156
+    },
+    {
+      "year_month": "2022-04",
+      "language": "Jupyter Notebook",
+      "repo_count": 7403
+    },
+    {
+      "year_month": "2022-04",
+      "language": "Python",
+      "repo_count": 3318
+    },
+    {
+      "year_month": "2022-04",
+      "language": "R",
+      "repo_count": 129
+    },
+    {
+      "year_month": "2022-04",
+      "language": "TypeScript",
+      "repo_count": 40
+    },
+    {
+      "year_month": "2022-05",
+      "language": "C#",
+      "repo_count": 81
+    },
+    {
+      "year_month": "2022-05",
+      "language": "C++",
+      "repo_count": 151
+    },
+    {
+      "year_month": "2022-05",
+      "language": "CSS",
+      "repo_count": 62
+    },
+    {
+      "year_month": "2022-05",
+      "language": "HTML",
+      "repo_count": 413
+    },
+    {
+      "year_month": "2022-05",
+      "language": "Java",
+      "repo_count": 118
+    },
+    {
+      "year_month": "2022-05",
+      "language": "JavaScript",
+      "repo_count": 262
+    },
+    {
+      "year_month": "2022-05",
+      "language": "Jupyter Notebook",
+      "repo_count": 7965
+    },
+    {
+      "year_month": "2022-05",
+      "language": "Python",
+      "repo_count": 3335
+    },
+    {
+      "year_month": "2022-05",
+      "language": "R",
+      "repo_count": 136
+    },
+    {
+      "year_month": "2022-05",
+      "language": "TypeScript",
+      "repo_count": 47
+    },
+    {
+      "year_month": "2022-06",
+      "language": "C#",
+      "repo_count": 55
+    },
+    {
+      "year_month": "2022-06",
+      "language": "C++",
+      "repo_count": 139
+    },
+    {
+      "year_month": "2022-06",
+      "language": "CSS",
+      "repo_count": 55
+    },
+    {
+      "year_month": "2022-06",
+      "language": "HTML",
+      "repo_count": 350
+    },
+    {
+      "year_month": "2022-06",
+      "language": "Java",
+      "repo_count": 106
+    },
+    {
+      "year_month": "2022-06",
+      "language": "JavaScript",
+      "repo_count": 175
+    },
+    {
+      "year_month": "2022-06",
+      "language": "Jupyter Notebook",
+      "repo_count": 7522
+    },
+    {
+      "year_month": "2022-06",
+      "language": "Python",
+      "repo_count": 3195
+    },
+    {
+      "year_month": "2022-06",
+      "language": "R",
+      "repo_count": 124
+    },
+    {
+      "year_month": "2022-06",
+      "language": "TypeScript",
+      "repo_count": 37
+    },
+    {
+      "year_month": "2022-07",
+      "language": "C#",
+      "repo_count": 57
+    },
+    {
+      "year_month": "2022-07",
+      "language": "C++",
+      "repo_count": 116
+    },
+    {
+      "year_month": "2022-07",
+      "language": "CSS",
+      "repo_count": 42
+    },
+    {
+      "year_month": "2022-07",
+      "language": "HTML",
+      "repo_count": 341
+    },
+    {
+      "year_month": "2022-07",
+      "language": "Java",
+      "repo_count": 85
+    },
+    {
+      "year_month": "2022-07",
+      "language": "JavaScript",
+      "repo_count": 184
+    },
+    {
+      "year_month": "2022-07",
+      "language": "Jupyter Notebook",
+      "repo_count": 8059
+    },
+    {
+      "year_month": "2022-07",
+      "language": "Python",
+      "repo_count": 3067
+    },
+    {
+      "year_month": "2022-07",
+      "language": "R",
+      "repo_count": 128
+    },
+    {
+      "year_month": "2022-07",
+      "language": "TypeScript",
+      "repo_count": 44
+    },
+    {
+      "year_month": "2022-08",
+      "language": "C#",
+      "repo_count": 45
+    },
+    {
+      "year_month": "2022-08",
+      "language": "C++",
+      "repo_count": 135
+    },
+    {
+      "year_month": "2022-08",
+      "language": "CSS",
+      "repo_count": 43
+    },
+    {
+      "year_month": "2022-08",
+      "language": "HTML",
+      "repo_count": 336
+    },
+    {
+      "year_month": "2022-08",
+      "language": "Java",
+      "repo_count": 76
+    },
+    {
+      "year_month": "2022-08",
+      "language": "JavaScript",
+      "repo_count": 152
+    },
+    {
+      "year_month": "2022-08",
+      "language": "Jupyter Notebook",
+      "repo_count": 8241
+    },
+    {
+      "year_month": "2022-08",
+      "language": "Python",
+      "repo_count": 2856
+    },
+    {
+      "year_month": "2022-08",
+      "language": "R",
+      "repo_count": 141
+    },
+    {
+      "year_month": "2022-08",
+      "language": "TypeScript",
+      "repo_count": 35
+    },
+    {
+      "year_month": "2022-09",
+      "language": "C#",
+      "repo_count": 66
+    },
+    {
+      "year_month": "2022-09",
+      "language": "C++",
+      "repo_count": 119
+    },
+    {
+      "year_month": "2022-09",
+      "language": "CSS",
+      "repo_count": 47
+    },
+    {
+      "year_month": "2022-09",
+      "language": "HTML",
+      "repo_count": 398
+    },
+    {
+      "year_month": "2022-09",
+      "language": "Java",
+      "repo_count": 107
+    },
+    {
+      "year_month": "2022-09",
+      "language": "JavaScript",
+      "repo_count": 192
+    },
+    {
+      "year_month": "2022-09",
+      "language": "Jupyter Notebook",
+      "repo_count": 8590
+    },
+    {
+      "year_month": "2022-09",
+      "language": "Python",
+      "repo_count": 3106
+    },
+    {
+      "year_month": "2022-09",
+      "language": "R",
+      "repo_count": 124
+    },
+    {
+      "year_month": "2022-09",
+      "language": "TypeScript",
+      "repo_count": 52
+    },
+    {
+      "year_month": "2022-10",
+      "language": "C#",
+      "repo_count": 69
+    },
+    {
+      "year_month": "2022-10",
+      "language": "C++",
+      "repo_count": 141
+    },
+    {
+      "year_month": "2022-10",
+      "language": "CSS",
+      "repo_count": 36
+    },
+    {
+      "year_month": "2022-10",
+      "language": "HTML",
+      "repo_count": 431
+    },
+    {
+      "year_month": "2022-10",
+      "language": "Java",
+      "repo_count": 85
+    },
+    {
+      "year_month": "2022-10",
+      "language": "JavaScript",
+      "repo_count": 132
+    },
+    {
+      "year_month": "2022-10",
+      "language": "Jupyter Notebook",
+      "repo_count": 9197
+    },
+    {
+      "year_month": "2022-10",
+      "language": "Python",
+      "repo_count": 3014
+    },
+    {
+      "year_month": "2022-10",
+      "language": "R",
+      "repo_count": 116
+    },
+    {
+      "year_month": "2022-10",
+      "language": "TypeScript",
+      "repo_count": 49
+    },
+    {
+      "year_month": "2022-11",
+      "language": "C#",
+      "repo_count": 69
+    },
+    {
+      "year_month": "2022-11",
+      "language": "C++",
+      "repo_count": 120
+    },
+    {
+      "year_month": "2022-11",
+      "language": "CSS",
+      "repo_count": 47
+    },
+    {
+      "year_month": "2022-11",
+      "language": "HTML",
+      "repo_count": 345
+    },
+    {
+      "year_month": "2022-11",
+      "language": "Java",
+      "repo_count": 100
+    },
+    {
+      "year_month": "2022-11",
+      "language": "JavaScript",
+      "repo_count": 195
+    },
+    {
+      "year_month": "2022-11",
+      "language": "Jupyter Notebook",
+      "repo_count": 8543
+    },
+    {
+      "year_month": "2022-11",
+      "language": "Python",
+      "repo_count": 3102
+    },
+    {
+      "year_month": "2022-11",
+      "language": "R",
+      "repo_count": 128
+    },
+    {
+      "year_month": "2022-11",
+      "language": "TypeScript",
+      "repo_count": 69
+    },
+    {
+      "year_month": "2022-12",
+      "language": "C#",
+      "repo_count": 103
+    },
+    {
+      "year_month": "2022-12",
+      "language": "C++",
+      "repo_count": 165
+    },
+    {
+      "year_month": "2022-12",
+      "language": "CSS",
+      "repo_count": 156
+    },
+    {
+      "year_month": "2022-12",
+      "language": "HTML",
+      "repo_count": 443
+    },
+    {
+      "year_month": "2022-12",
+      "language": "Java",
+      "repo_count": 154
+    },
+    {
+      "year_month": "2022-12",
+      "language": "JavaScript",
+      "repo_count": 968
+    },
+    {
+      "year_month": "2022-12",
+      "language": "Jupyter Notebook",
+      "repo_count": 8051
+    },
+    {
+      "year_month": "2022-12",
+      "language": "Python",
+      "repo_count": 3747
+    },
+    {
+      "year_month": "2022-12",
+      "language": "R",
+      "repo_count": 115
+    },
+    {
+      "year_month": "2022-12",
+      "language": "TypeScript",
+      "repo_count": 395
+    },
+    {
+      "year_month": "2023-01",
+      "language": "C#",
+      "repo_count": 155
+    },
+    {
+      "year_month": "2023-01",
+      "language": "C++",
+      "repo_count": 276
+    },
+    {
+      "year_month": "2023-01",
+      "language": "CSS",
+      "repo_count": 238
+    },
+    {
+      "year_month": "2023-01",
+      "language": "HTML",
+      "repo_count": 644
+    },
+    {
+      "year_month": "2023-01",
+      "language": "Java",
+      "repo_count": 176
+    },
+    {
+      "year_month": "2023-01",
+      "language": "JavaScript",
+      "repo_count": 1405
+    },
+    {
+      "year_month": "2023-01",
+      "language": "Jupyter Notebook",
+      "repo_count": 9362
+    },
+    {
+      "year_month": "2023-01",
+      "language": "Python",
+      "repo_count": 4468
+    },
+    {
+      "year_month": "2023-01",
+      "language": "R",
+      "repo_count": 144
+    },
+    {
+      "year_month": "2023-01",
+      "language": "TypeScript",
+      "repo_count": 339
+    },
+    {
+      "year_month": "2023-02",
+      "language": "C#",
+      "repo_count": 202
+    },
+    {
+      "year_month": "2023-02",
+      "language": "C++",
+      "repo_count": 230
+    },
+    {
+      "year_month": "2023-02",
+      "language": "CSS",
+      "repo_count": 240
+    },
+    {
+      "year_month": "2023-02",
+      "language": "HTML",
+      "repo_count": 686
+    },
+    {
+      "year_month": "2023-02",
+      "language": "Java",
+      "repo_count": 333
+    },
+    {
+      "year_month": "2023-02",
+      "language": "JavaScript",
+      "repo_count": 1490
+    },
+    {
+      "year_month": "2023-02",
+      "language": "Jupyter Notebook",
+      "repo_count": 9610
+    },
+    {
+      "year_month": "2023-02",
+      "language": "Python",
+      "repo_count": 4849
+    },
+    {
+      "year_month": "2023-02",
+      "language": "R",
+      "repo_count": 132
+    },
+    {
+      "year_month": "2023-02",
+      "language": "TypeScript",
+      "repo_count": 945
+    },
+    {
+      "year_month": "2023-03",
+      "language": "C#",
+      "repo_count": 347
+    },
+    {
+      "year_month": "2023-03",
+      "language": "C++",
+      "repo_count": 341
+    },
+    {
+      "year_month": "2023-03",
+      "language": "CSS",
+      "repo_count": 332
+    },
+    {
+      "year_month": "2023-03",
+      "language": "HTML",
+      "repo_count": 993
+    },
+    {
+      "year_month": "2023-03",
+      "language": "Java",
+      "repo_count": 498
+    },
+    {
+      "year_month": "2023-03",
+      "language": "JavaScript",
+      "repo_count": 2652
+    },
+    {
+      "year_month": "2023-03",
+      "language": "Jupyter Notebook",
+      "repo_count": 10894
+    },
+    {
+      "year_month": "2023-03",
+      "language": "Python",
+      "repo_count": 7764
+    },
+    {
+      "year_month": "2023-03",
+      "language": "R",
+      "repo_count": 199
+    },
+    {
+      "year_month": "2023-03",
+      "language": "TypeScript",
+      "repo_count": 2962
+    },
+    {
+      "year_month": "2023-04",
+      "language": "C#",
+      "repo_count": 255
+    },
+    {
+      "year_month": "2023-04",
+      "language": "C++",
+      "repo_count": 311
+    },
+    {
+      "year_month": "2023-04",
+      "language": "CSS",
+      "repo_count": 287
+    },
+    {
+      "year_month": "2023-04",
+      "language": "HTML",
+      "repo_count": 1102
+    },
+    {
+      "year_month": "2023-04",
+      "language": "Java",
+      "repo_count": 410
+    },
+    {
+      "year_month": "2023-04",
+      "language": "JavaScript",
+      "repo_count": 2346
+    },
+    {
+      "year_month": "2023-04",
+      "language": "Jupyter Notebook",
+      "repo_count": 11460
+    },
+    {
+      "year_month": "2023-04",
+      "language": "Python",
+      "repo_count": 8573
+    },
+    {
+      "year_month": "2023-04",
+      "language": "R",
+      "repo_count": 196
+    },
+    {
+      "year_month": "2023-04",
+      "language": "TypeScript",
+      "repo_count": 2704
+    },
+    {
+      "year_month": "2023-05",
+      "language": "C#",
+      "repo_count": 213
+    },
+    {
+      "year_month": "2023-05",
+      "language": "C++",
+      "repo_count": 277
+    },
+    {
+      "year_month": "2023-05",
+      "language": "CSS",
+      "repo_count": 257
+    },
+    {
+      "year_month": "2023-05",
+      "language": "HTML",
+      "repo_count": 973
+    },
+    {
+      "year_month": "2023-05",
+      "language": "Java",
+      "repo_count": 381
+    },
+    {
+      "year_month": "2023-05",
+      "language": "JavaScript",
+      "repo_count": 1985
+    },
+    {
+      "year_month": "2023-05",
+      "language": "Jupyter Notebook",
+      "repo_count": 12279
+    },
+    {
+      "year_month": "2023-05",
+      "language": "Python",
+      "repo_count": 8956
+    },
+    {
+      "year_month": "2023-05",
+      "language": "R",
+      "repo_count": 187
+    },
+    {
+      "year_month": "2023-05",
+      "language": "TypeScript",
+      "repo_count": 1859
+    },
+    {
+      "year_month": "2023-06",
+      "language": "C#",
+      "repo_count": 166
+    },
+    {
+      "year_month": "2023-06",
+      "language": "C++",
+      "repo_count": 245
+    },
+    {
+      "year_month": "2023-06",
+      "language": "CSS",
+      "repo_count": 204
+    },
+    {
+      "year_month": "2023-06",
+      "language": "HTML",
+      "repo_count": 793
+    },
+    {
+      "year_month": "2023-06",
+      "language": "Java",
+      "repo_count": 306
+    },
+    {
+      "year_month": "2023-06",
+      "language": "JavaScript",
+      "repo_count": 1490
+    },
+    {
+      "year_month": "2023-06",
+      "language": "Jupyter Notebook",
+      "repo_count": 11254
+    },
+    {
+      "year_month": "2023-06",
+      "language": "Python",
+      "repo_count": 7594
+    },
+    {
+      "year_month": "2023-06",
+      "language": "R",
+      "repo_count": 168
+    },
+    {
+      "year_month": "2023-06",
+      "language": "TypeScript",
+      "repo_count": 1257
+    },
+    {
+      "year_month": "2023-07",
+      "language": "C#",
+      "repo_count": 136
+    },
+    {
+      "year_month": "2023-07",
+      "language": "C++",
+      "repo_count": 245
+    },
+    {
+      "year_month": "2023-07",
+      "language": "CSS",
+      "repo_count": 218
+    },
+    {
+      "year_month": "2023-07",
+      "language": "HTML",
+      "repo_count": 752
+    },
+    {
+      "year_month": "2023-07",
+      "language": "Java",
+      "repo_count": 277
+    },
+    {
+      "year_month": "2023-07",
+      "language": "JavaScript",
+      "repo_count": 1462
+    },
+    {
+      "year_month": "2023-07",
+      "language": "Jupyter Notebook",
+      "repo_count": 12011
+    },
+    {
+      "year_month": "2023-07",
+      "language": "Python",
+      "repo_count": 7256
+    },
+    {
+      "year_month": "2023-07",
+      "language": "R",
+      "repo_count": 163
+    },
+    {
+      "year_month": "2023-07",
+      "language": "TypeScript",
+      "repo_count": 1154
+    },
+    {
+      "year_month": "2023-08",
+      "language": "C#",
+      "repo_count": 137
+    },
+    {
+      "year_month": "2023-08",
+      "language": "C++",
+      "repo_count": 247
+    },
+    {
+      "year_month": "2023-08",
+      "language": "CSS",
+      "repo_count": 218
+    },
+    {
+      "year_month": "2023-08",
+      "language": "HTML",
+      "repo_count": 747
+    },
+    {
+      "year_month": "2023-08",
+      "language": "Java",
+      "repo_count": 230
+    },
+    {
+      "year_month": "2023-08",
+      "language": "JavaScript",
+      "repo_count": 1247
+    },
+    {
+      "year_month": "2023-08",
+      "language": "Jupyter Notebook",
+      "repo_count": 12056
+    },
+    {
+      "year_month": "2023-08",
+      "language": "Python",
+      "repo_count": 7172
+    },
+    {
+      "year_month": "2023-08",
+      "language": "R",
+      "repo_count": 188
+    },
+    {
+      "year_month": "2023-08",
+      "language": "TypeScript",
+      "repo_count": 947
+    },
+    {
+      "year_month": "2023-09",
+      "language": "C#",
+      "repo_count": 146
+    },
+    {
+      "year_month": "2023-09",
+      "language": "C++",
+      "repo_count": 219
+    },
+    {
+      "year_month": "2023-09",
+      "language": "CSS",
+      "repo_count": 175
+    },
+    {
+      "year_month": "2023-09",
+      "language": "HTML",
+      "repo_count": 690
+    },
+    {
+      "year_month": "2023-09",
+      "language": "Java",
+      "repo_count": 217
+    },
+    {
+      "year_month": "2023-09",
+      "language": "JavaScript",
+      "repo_count": 1493
+    },
+    {
+      "year_month": "2023-09",
+      "language": "Jupyter Notebook",
+      "repo_count": 12435
+    },
+    {
+      "year_month": "2023-09",
+      "language": "Python",
+      "repo_count": 6618
+    },
+    {
+      "year_month": "2023-09",
+      "language": "R",
+      "repo_count": 195
+    },
+    {
+      "year_month": "2023-09",
+      "language": "TypeScript",
+      "repo_count": 921
+    },
+    {
+      "year_month": "2023-10",
+      "language": "C#",
+      "repo_count": 141
+    },
+    {
+      "year_month": "2023-10",
+      "language": "C++",
+      "repo_count": 216
+    },
+    {
+      "year_month": "2023-10",
+      "language": "CSS",
+      "repo_count": 206
+    },
+    {
+      "year_month": "2023-10",
+      "language": "HTML",
+      "repo_count": 777
+    },
+    {
+      "year_month": "2023-10",
+      "language": "Java",
+      "repo_count": 276
+    },
+    {
+      "year_month": "2023-10",
+      "language": "JavaScript",
+      "repo_count": 1559
+    },
+    {
+      "year_month": "2023-10",
+      "language": "Jupyter Notebook",
+      "repo_count": 12309
+    },
+    {
+      "year_month": "2023-10",
+      "language": "Python",
+      "repo_count": 7219
+    },
+    {
+      "year_month": "2023-10",
+      "language": "R",
+      "repo_count": 211
+    },
+    {
+      "year_month": "2023-10",
+      "language": "TypeScript",
+      "repo_count": 893
+    },
+    {
+      "year_month": "2023-11",
+      "language": "C#",
+      "repo_count": 154
+    },
+    {
+      "year_month": "2023-11",
+      "language": "C++",
+      "repo_count": 219
+    },
+    {
+      "year_month": "2023-11",
+      "language": "CSS",
+      "repo_count": 160
+    },
+    {
+      "year_month": "2023-11",
+      "language": "HTML",
+      "repo_count": 700
+    },
+    {
+      "year_month": "2023-11",
+      "language": "Java",
+      "repo_count": 289
+    },
+    {
+      "year_month": "2023-11",
+      "language": "JavaScript",
+      "repo_count": 1670
+    },
+    {
+      "year_month": "2023-11",
+      "language": "Jupyter Notebook",
+      "repo_count": 11987
+    },
+    {
+      "year_month": "2023-11",
+      "language": "Python",
+      "repo_count": 7436
+    },
+    {
+      "year_month": "2023-11",
+      "language": "R",
+      "repo_count": 190
+    },
+    {
+      "year_month": "2023-11",
+      "language": "TypeScript",
+      "repo_count": 918
+    },
+    {
+      "year_month": "2023-12",
+      "language": "C#",
+      "repo_count": 162
+    },
+    {
+      "year_month": "2023-12",
+      "language": "C++",
+      "repo_count": 219
+    },
+    {
+      "year_month": "2023-12",
+      "language": "CSS",
+      "repo_count": 180
+    },
+    {
+      "year_month": "2023-12",
+      "language": "HTML",
+      "repo_count": 816
+    },
+    {
+      "year_month": "2023-12",
+      "language": "Java",
+      "repo_count": 248
+    },
+    {
+      "year_month": "2023-12",
+      "language": "JavaScript",
+      "repo_count": 1610
+    },
+    {
+      "year_month": "2023-12",
+      "language": "Jupyter Notebook",
+      "repo_count": 12137
+    },
+    {
+      "year_month": "2023-12",
+      "language": "Python",
+      "repo_count": 7621
+    },
+    {
+      "year_month": "2023-12",
+      "language": "R",
+      "repo_count": 186
+    },
+    {
+      "year_month": "2023-12",
+      "language": "TypeScript",
+      "repo_count": 884
+    },
+    {
+      "year_month": "2024-01",
+      "language": "C#",
+      "repo_count": 126
+    },
+    {
+      "year_month": "2024-01",
+      "language": "C++",
+      "repo_count": 233
+    },
+    {
+      "year_month": "2024-01",
+      "language": "CSS",
+      "repo_count": 158
+    },
+    {
+      "year_month": "2024-01",
+      "language": "HTML",
+      "repo_count": 786
+    },
+    {
+      "year_month": "2024-01",
+      "language": "Java",
+      "repo_count": 276
+    },
+    {
+      "year_month": "2024-01",
+      "language": "JavaScript",
+      "repo_count": 1692
+    },
+    {
+      "year_month": "2024-01",
+      "language": "Jupyter Notebook",
+      "repo_count": 13868
+    },
+    {
+      "year_month": "2024-01",
+      "language": "Python",
+      "repo_count": 8122
+    },
+    {
+      "year_month": "2024-01",
+      "language": "R",
+      "repo_count": 218
+    },
+    {
+      "year_month": "2024-01",
+      "language": "TypeScript",
+      "repo_count": 886
+    },
+    {
+      "year_month": "2024-02",
+      "language": "C#",
+      "repo_count": 141
+    },
+    {
+      "year_month": "2024-02",
+      "language": "C++",
+      "repo_count": 212
+    },
+    {
+      "year_month": "2024-02",
+      "language": "CSS",
+      "repo_count": 166
+    },
+    {
+      "year_month": "2024-02",
+      "language": "HTML",
+      "repo_count": 738
+    },
+    {
+      "year_month": "2024-02",
+      "language": "Java",
+      "repo_count": 298
+    },
+    {
+      "year_month": "2024-02",
+      "language": "JavaScript",
+      "repo_count": 1485
+    },
+    {
+      "year_month": "2024-02",
+      "language": "Jupyter Notebook",
+      "repo_count": 14167
+    },
+    {
+      "year_month": "2024-02",
+      "language": "Python",
+      "repo_count": 8052
+    },
+    {
+      "year_month": "2024-02",
+      "language": "R",
+      "repo_count": 163
+    },
+    {
+      "year_month": "2024-02",
+      "language": "TypeScript",
+      "repo_count": 765
+    },
+    {
+      "year_month": "2024-03",
+      "language": "C#",
+      "repo_count": 148
+    },
+    {
+      "year_month": "2024-03",
+      "language": "C++",
+      "repo_count": 253
+    },
+    {
+      "year_month": "2024-03",
+      "language": "CSS",
+      "repo_count": 310
+    },
+    {
+      "year_month": "2024-03",
+      "language": "HTML",
+      "repo_count": 848
+    },
+    {
+      "year_month": "2024-03",
+      "language": "Java",
+      "repo_count": 342
+    },
+    {
+      "year_month": "2024-03",
+      "language": "JavaScript",
+      "repo_count": 1744
+    },
+    {
+      "year_month": "2024-03",
+      "language": "Jupyter Notebook",
+      "repo_count": 15245
+    },
+    {
+      "year_month": "2024-03",
+      "language": "Python",
+      "repo_count": 9355
+    },
+    {
+      "year_month": "2024-03",
+      "language": "R",
+      "repo_count": 160
+    },
+    {
+      "year_month": "2024-03",
+      "language": "TypeScript",
+      "repo_count": 833
+    },
+    {
+      "year_month": "2024-04",
+      "language": "C#",
+      "repo_count": 176
+    },
+    {
+      "year_month": "2024-04",
+      "language": "C++",
+      "repo_count": 223
+    },
+    {
+      "year_month": "2024-04",
+      "language": "CSS",
+      "repo_count": 169
+    },
+    {
+      "year_month": "2024-04",
+      "language": "HTML",
+      "repo_count": 1235
+    },
+    {
+      "year_month": "2024-04",
+      "language": "Java",
+      "repo_count": 301
+    },
+    {
+      "year_month": "2024-04",
+      "language": "JavaScript",
+      "repo_count": 1334
+    },
+    {
+      "year_month": "2024-04",
+      "language": "Jupyter Notebook",
+      "repo_count": 14859
+    },
+    {
+      "year_month": "2024-04",
+      "language": "Python",
+      "repo_count": 8590
+    },
+    {
+      "year_month": "2024-04",
+      "language": "R",
+      "repo_count": 127
+    },
+    {
+      "year_month": "2024-04",
+      "language": "TypeScript",
+      "repo_count": 727
+    },
+    {
+      "year_month": "2024-05",
+      "language": "C#",
+      "repo_count": 161
+    },
+    {
+      "year_month": "2024-05",
+      "language": "C++",
+      "repo_count": 233
+    },
+    {
+      "year_month": "2024-05",
+      "language": "CSS",
+      "repo_count": 169
+    },
+    {
+      "year_month": "2024-05",
+      "language": "HTML",
+      "repo_count": 963
+    },
+    {
+      "year_month": "2024-05",
+      "language": "Java",
+      "repo_count": 273
+    },
+    {
+      "year_month": "2024-05",
+      "language": "JavaScript",
+      "repo_count": 1515
+    },
+    {
+      "year_month": "2024-05",
+      "language": "Jupyter Notebook",
+      "repo_count": 16363
+    },
+    {
+      "year_month": "2024-05",
+      "language": "Python",
+      "repo_count": 9795
+    },
+    {
+      "year_month": "2024-05",
+      "language": "R",
+      "repo_count": 142
+    },
+    {
+      "year_month": "2024-05",
+      "language": "TypeScript",
+      "repo_count": 759
+    },
+    {
+      "year_month": "2024-06",
+      "language": "C#",
+      "repo_count": 157
+    },
+    {
+      "year_month": "2024-06",
+      "language": "C++",
+      "repo_count": 236
+    },
+    {
+      "year_month": "2024-06",
+      "language": "CSS",
+      "repo_count": 200
+    },
+    {
+      "year_month": "2024-06",
+      "language": "HTML",
+      "repo_count": 892
+    },
+    {
+      "year_month": "2024-06",
+      "language": "Java",
+      "repo_count": 268
+    },
+    {
+      "year_month": "2024-06",
+      "language": "JavaScript",
+      "repo_count": 1371
+    },
+    {
+      "year_month": "2024-06",
+      "language": "Jupyter Notebook",
+      "repo_count": 16242
+    },
+    {
+      "year_month": "2024-06",
+      "language": "Python",
+      "repo_count": 9671
+    },
+    {
+      "year_month": "2024-06",
+      "language": "R",
+      "repo_count": 141
+    },
+    {
+      "year_month": "2024-06",
+      "language": "TypeScript",
+      "repo_count": 725
+    },
+    {
+      "year_month": "2024-07",
+      "language": "C#",
+      "repo_count": 121
+    },
+    {
+      "year_month": "2024-07",
+      "language": "C++",
+      "repo_count": 235
+    },
+    {
+      "year_month": "2024-07",
+      "language": "CSS",
+      "repo_count": 186
+    },
+    {
+      "year_month": "2024-07",
+      "language": "HTML",
+      "repo_count": 915
+    },
+    {
+      "year_month": "2024-07",
+      "language": "Java",
+      "repo_count": 236
+    },
+    {
+      "year_month": "2024-07",
+      "language": "JavaScript",
+      "repo_count": 1128
+    },
+    {
+      "year_month": "2024-07",
+      "language": "Jupyter Notebook",
+      "repo_count": 17263
+    },
+    {
+      "year_month": "2024-07",
+      "language": "Python",
+      "repo_count": 10218
+    },
+    {
+      "year_month": "2024-07",
+      "language": "R",
+      "repo_count": 147
+    },
+    {
+      "year_month": "2024-07",
+      "language": "TypeScript",
+      "repo_count": 712
+    },
+    {
+      "year_month": "2024-08",
+      "language": "C#",
+      "repo_count": 161
+    },
+    {
+      "year_month": "2024-08",
+      "language": "C++",
+      "repo_count": 206
+    },
+    {
+      "year_month": "2024-08",
+      "language": "CSS",
+      "repo_count": 176
+    },
+    {
+      "year_month": "2024-08",
+      "language": "HTML",
+      "repo_count": 902
+    },
+    {
+      "year_month": "2024-08",
+      "language": "Java",
+      "repo_count": 219
+    },
+    {
+      "year_month": "2024-08",
+      "language": "JavaScript",
+      "repo_count": 1195
+    },
+    {
+      "year_month": "2024-08",
+      "language": "Jupyter Notebook",
+      "repo_count": 15365
+    },
+    {
+      "year_month": "2024-08",
+      "language": "Python",
+      "repo_count": 9409
+    },
+    {
+      "year_month": "2024-08",
+      "language": "R",
+      "repo_count": 142
+    },
+    {
+      "year_month": "2024-08",
+      "language": "TypeScript",
+      "repo_count": 800
+    },
+    {
+      "year_month": "2024-09",
+      "language": "C#",
+      "repo_count": 145
+    },
+    {
+      "year_month": "2024-09",
+      "language": "C++",
+      "repo_count": 240
+    },
+    {
+      "year_month": "2024-09",
+      "language": "CSS",
+      "repo_count": 171
+    },
+    {
+      "year_month": "2024-09",
+      "language": "HTML",
+      "repo_count": 992
+    },
+    {
+      "year_month": "2024-09",
+      "language": "Java",
+      "repo_count": 244
+    },
+    {
+      "year_month": "2024-09",
+      "language": "JavaScript",
+      "repo_count": 1116
+    },
+    {
+      "year_month": "2024-09",
+      "language": "Jupyter Notebook",
+      "repo_count": 16132
+    },
+    {
+      "year_month": "2024-09",
+      "language": "Python",
+      "repo_count": 10212
+    },
+    {
+      "year_month": "2024-09",
+      "language": "R",
+      "repo_count": 182
+    },
+    {
+      "year_month": "2024-09",
+      "language": "TypeScript",
+      "repo_count": 843
+    },
+    {
+      "year_month": "2024-10",
+      "language": "C#",
+      "repo_count": 201
+    },
+    {
+      "year_month": "2024-10",
+      "language": "C++",
+      "repo_count": 250
+    },
+    {
+      "year_month": "2024-10",
+      "language": "CSS",
+      "repo_count": 175
+    },
+    {
+      "year_month": "2024-10",
+      "language": "HTML",
+      "repo_count": 1003
+    },
+    {
+      "year_month": "2024-10",
+      "language": "Java",
+      "repo_count": 281
+    },
+    {
+      "year_month": "2024-10",
+      "language": "JavaScript",
+      "repo_count": 1246
+    },
+    {
+      "year_month": "2024-10",
+      "language": "Jupyter Notebook",
+      "repo_count": 16071
+    },
+    {
+      "year_month": "2024-10",
+      "language": "Python",
+      "repo_count": 10429
+    },
+    {
+      "year_month": "2024-10",
+      "language": "R",
+      "repo_count": 160
+    },
+    {
+      "year_month": "2024-10",
+      "language": "TypeScript",
+      "repo_count": 944
+    },
+    {
+      "year_month": "2024-11",
+      "language": "C#",
+      "repo_count": 161
+    },
+    {
+      "year_month": "2024-11",
+      "language": "C++",
+      "repo_count": 240
+    },
+    {
+      "year_month": "2024-11",
+      "language": "CSS",
+      "repo_count": 153
+    },
+    {
+      "year_month": "2024-11",
+      "language": "HTML",
+      "repo_count": 1013
+    },
+    {
+      "year_month": "2024-11",
+      "language": "Java",
+      "repo_count": 268
+    },
+    {
+      "year_month": "2024-11",
+      "language": "JavaScript",
+      "repo_count": 1202
+    },
+    {
+      "year_month": "2024-11",
+      "language": "Jupyter Notebook",
+      "repo_count": 15597
+    },
+    {
+      "year_month": "2024-11",
+      "language": "Python",
+      "repo_count": 10840
+    },
+    {
+      "year_month": "2024-11",
+      "language": "R",
+      "repo_count": 163
+    },
+    {
+      "year_month": "2024-11",
+      "language": "TypeScript",
+      "repo_count": 1063
+    },
+    {
+      "year_month": "2024-12",
+      "language": "C#",
+      "repo_count": 191
+    },
+    {
+      "year_month": "2024-12",
+      "language": "C++",
+      "repo_count": 279
+    },
+    {
+      "year_month": "2024-12",
+      "language": "CSS",
+      "repo_count": 145
+    },
+    {
+      "year_month": "2024-12",
+      "language": "HTML",
+      "repo_count": 1106
+    },
+    {
+      "year_month": "2024-12",
+      "language": "Java",
+      "repo_count": 273
+    },
+    {
+      "year_month": "2024-12",
+      "language": "JavaScript",
+      "repo_count": 1289
+    },
+    {
+      "year_month": "2024-12",
+      "language": "Jupyter Notebook",
+      "repo_count": 16164
+    },
+    {
+      "year_month": "2024-12",
+      "language": "Python",
+      "repo_count": 11271
+    },
+    {
+      "year_month": "2024-12",
+      "language": "R",
+      "repo_count": 149
+    },
+    {
+      "year_month": "2024-12",
+      "language": "TypeScript",
+      "repo_count": 1209
+    },
+    {
+      "year_month": "2025-01",
+      "language": "C#",
+      "repo_count": 217
+    },
+    {
+      "year_month": "2025-01",
+      "language": "C++",
+      "repo_count": 273
+    },
+    {
+      "year_month": "2025-01",
+      "language": "CSS",
+      "repo_count": 220
+    },
+    {
+      "year_month": "2025-01",
+      "language": "HTML",
+      "repo_count": 1192
+    },
+    {
+      "year_month": "2025-01",
+      "language": "Java",
+      "repo_count": 311
+    },
+    {
+      "year_month": "2025-01",
+      "language": "JavaScript",
+      "repo_count": 1555
+    },
+    {
+      "year_month": "2025-01",
+      "language": "Jupyter Notebook",
+      "repo_count": 18684
+    },
+    {
+      "year_month": "2025-01",
+      "language": "Python",
+      "repo_count": 14027
+    },
+    {
+      "year_month": "2025-01",
+      "language": "R",
+      "repo_count": 178
+    },
+    {
+      "year_month": "2025-01",
+      "language": "TypeScript",
+      "repo_count": 1816
+    },
+    {
+      "year_month": "2025-02",
+      "language": "C#",
+      "repo_count": 212
+    },
+    {
+      "year_month": "2025-02",
+      "language": "C++",
+      "repo_count": 289
+    },
+    {
+      "year_month": "2025-02",
+      "language": "CSS",
+      "repo_count": 208
+    },
+    {
+      "year_month": "2025-02",
+      "language": "HTML",
+      "repo_count": 1326
+    },
+    {
+      "year_month": "2025-02",
+      "language": "Java",
+      "repo_count": 361
+    },
+    {
+      "year_month": "2025-02",
+      "language": "JavaScript",
+      "repo_count": 1773
+    },
+    {
+      "year_month": "2025-02",
+      "language": "Jupyter Notebook",
+      "repo_count": 18179
+    },
+    {
+      "year_month": "2025-02",
+      "language": "Python",
+      "repo_count": 15620
+    },
+    {
+      "year_month": "2025-02",
+      "language": "R",
+      "repo_count": 176
+    },
+    {
+      "year_month": "2025-02",
+      "language": "TypeScript",
+      "repo_count": 1950
+    },
+    {
+      "year_month": "2025-03",
+      "language": "C#",
+      "repo_count": 236
+    },
+    {
+      "year_month": "2025-03",
+      "language": "C++",
+      "repo_count": 295
+    },
+    {
+      "year_month": "2025-03",
+      "language": "CSS",
+      "repo_count": 207
+    },
+    {
+      "year_month": "2025-03",
+      "language": "HTML",
+      "repo_count": 1660
+    },
+    {
+      "year_month": "2025-03",
+      "language": "Java",
+      "repo_count": 453
+    },
+    {
+      "year_month": "2025-03",
+      "language": "JavaScript",
+      "repo_count": 3051
+    },
+    {
+      "year_month": "2025-03",
+      "language": "Jupyter Notebook",
+      "repo_count": 19971
+    },
+    {
+      "year_month": "2025-03",
+      "language": "Python",
+      "repo_count": 18847
+    },
+    {
+      "year_month": "2025-03",
+      "language": "R",
+      "repo_count": 201
+    },
+    {
+      "year_month": "2025-03",
+      "language": "TypeScript",
+      "repo_count": 2274
+    },
+    {
+      "year_month": "2025-04",
+      "language": "C#",
+      "repo_count": 224
+    },
+    {
+      "year_month": "2025-04",
+      "language": "C++",
+      "repo_count": 304
+    },
+    {
+      "year_month": "2025-04",
+      "language": "CSS",
+      "repo_count": 258
+    },
+    {
+      "year_month": "2025-04",
+      "language": "HTML",
+      "repo_count": 1970
+    },
+    {
+      "year_month": "2025-04",
+      "language": "Java",
+      "repo_count": 507
+    },
+    {
+      "year_month": "2025-04",
+      "language": "JavaScript",
+      "repo_count": 4022
+    },
+    {
+      "year_month": "2025-04",
+      "language": "Jupyter Notebook",
+      "repo_count": 18811
+    },
+    {
+      "year_month": "2025-04",
+      "language": "Python",
+      "repo_count": 20065
+    },
+    {
+      "year_month": "2025-04",
+      "language": "R",
+      "repo_count": 193
+    },
+    {
+      "year_month": "2025-04",
+      "language": "TypeScript",
+      "repo_count": 2496
+    },
+    {
+      "year_month": "2025-05",
+      "language": "C#",
+      "repo_count": 296
+    },
+    {
+      "year_month": "2025-05",
+      "language": "C++",
+      "repo_count": 325
+    },
+    {
+      "year_month": "2025-05",
+      "language": "CSS",
+      "repo_count": 243
+    },
+    {
+      "year_month": "2025-05",
+      "language": "HTML",
+      "repo_count": 2060
+    },
+    {
+      "year_month": "2025-05",
+      "language": "Java",
+      "repo_count": 528
+    },
+    {
+      "year_month": "2025-05",
+      "language": "JavaScript",
+      "repo_count": 4667
+    },
+    {
+      "year_month": "2025-05",
+      "language": "Jupyter Notebook",
+      "repo_count": 18959
+    },
+    {
+      "year_month": "2025-05",
+      "language": "Python",
+      "repo_count": 22473
+    },
+    {
+      "year_month": "2025-05",
+      "language": "R",
+      "repo_count": 169
+    },
+    {
+      "year_month": "2025-05",
+      "language": "TypeScript",
+      "repo_count": 2476
+    },
+    {
+      "year_month": "2025-06",
+      "language": "C#",
+      "repo_count": 299
+    },
+    {
+      "year_month": "2025-06",
+      "language": "C++",
+      "repo_count": 326
+    },
+    {
+      "year_month": "2025-06",
+      "language": "CSS",
+      "repo_count": 286
+    },
+    {
+      "year_month": "2025-06",
+      "language": "HTML",
+      "repo_count": 2210
+    },
+    {
+      "year_month": "2025-06",
+      "language": "Java",
+      "repo_count": 537
+    },
+    {
+      "year_month": "2025-06",
+      "language": "JavaScript",
+      "repo_count": 5262
+    },
+    {
+      "year_month": "2025-06",
+      "language": "Jupyter Notebook",
+      "repo_count": 19003
+    },
+    {
+      "year_month": "2025-06",
+      "language": "Python",
+      "repo_count": 24388
+    },
+    {
+      "year_month": "2025-06",
+      "language": "R",
+      "repo_count": 257
+    },
+    {
+      "year_month": "2025-06",
+      "language": "TypeScript",
+      "repo_count": 3043
+    },
+    {
+      "year_month": "2025-07",
+      "language": "C#",
+      "repo_count": 273
+    },
+    {
+      "year_month": "2025-07",
+      "language": "C++",
+      "repo_count": 330
+    },
+    {
+      "year_month": "2025-07",
+      "language": "CSS",
+      "repo_count": 296
+    },
+    {
+      "year_month": "2025-07",
+      "language": "HTML",
+      "repo_count": 2373
+    },
+    {
+      "year_month": "2025-07",
+      "language": "Java",
+      "repo_count": 579
+    },
+    {
+      "year_month": "2025-07",
+      "language": "JavaScript",
+      "repo_count": 5136
+    },
+    {
+      "year_month": "2025-07",
+      "language": "Jupyter Notebook",
+      "repo_count": 20565
+    },
+    {
+      "year_month": "2025-07",
+      "language": "Python",
+      "repo_count": 26415
+    },
+    {
+      "year_month": "2025-07",
+      "language": "R",
+      "repo_count": 258
+    },
+    {
+      "year_month": "2025-07",
+      "language": "TypeScript",
+      "repo_count": 3440
+    },
+    {
+      "year_month": "2025-08",
+      "language": "C#",
+      "repo_count": 316
+    },
+    {
+      "year_month": "2025-08",
+      "language": "C++",
+      "repo_count": 367
+    },
+    {
+      "year_month": "2025-08",
+      "language": "CSS",
+      "repo_count": 304
+    },
+    {
+      "year_month": "2025-08",
+      "language": "HTML",
+      "repo_count": 2829
+    },
+    {
+      "year_month": "2025-08",
+      "language": "Java",
+      "repo_count": 626
+    },
+    {
+      "year_month": "2025-08",
+      "language": "JavaScript",
+      "repo_count": 5598
+    },
+    {
+      "year_month": "2025-08",
+      "language": "Jupyter Notebook",
+      "repo_count": 20479
+    },
+    {
+      "year_month": "2025-08",
+      "language": "Python",
+      "repo_count": 26777
+    },
+    {
+      "year_month": "2025-08",
+      "language": "R",
+      "repo_count": 195
+    },
+    {
+      "year_month": "2025-08",
+      "language": "TypeScript",
+      "repo_count": 3528
+    },
+    {
+      "year_month": "2025-09",
+      "language": "C#",
+      "repo_count": 247
+    },
+    {
+      "year_month": "2025-09",
+      "language": "C++",
+      "repo_count": 326
+    },
+    {
+      "year_month": "2025-09",
+      "language": "CSS",
+      "repo_count": 252
+    },
+    {
+      "year_month": "2025-09",
+      "language": "HTML",
+      "repo_count": 2330
+    },
+    {
+      "year_month": "2025-09",
+      "language": "Java",
+      "repo_count": 504
+    },
+    {
+      "year_month": "2025-09",
+      "language": "JavaScript",
+      "repo_count": 5808
+    },
+    {
+      "year_month": "2025-09",
+      "language": "Jupyter Notebook",
+      "repo_count": 18865
+    },
+    {
+      "year_month": "2025-09",
+      "language": "Python",
+      "repo_count": 24959
+    },
+    {
+      "year_month": "2025-09",
+      "language": "R",
+      "repo_count": 132
+    },
+    {
+      "year_month": "2025-09",
+      "language": "TypeScript",
+      "repo_count": 3330
+    },
+    {
+      "year_month": "2025-10",
+      "language": "C#",
+      "repo_count": 360
+    },
+    {
+      "year_month": "2025-10",
+      "language": "C++",
+      "repo_count": 304
+    },
+    {
+      "year_month": "2025-10",
+      "language": "CSS",
+      "repo_count": 341
+    },
+    {
+      "year_month": "2025-10",
+      "language": "HTML",
+      "repo_count": 3168
+    },
+    {
+      "year_month": "2025-10",
+      "language": "Java",
+      "repo_count": 580
+    },
+    {
+      "year_month": "2025-10",
+      "language": "JavaScript",
+      "repo_count": 7139
+    },
+    {
+      "year_month": "2025-10",
+      "language": "Jupyter Notebook",
+      "repo_count": 16903
+    },
+    {
+      "year_month": "2025-10",
+      "language": "Python",
+      "repo_count": 25022
+    },
+    {
+      "year_month": "2025-10",
+      "language": "R",
+      "repo_count": 136
+    },
+    {
+      "year_month": "2025-10",
+      "language": "TypeScript",
+      "repo_count": 6014
+    },
+    {
+      "year_month": "2025-11",
+      "language": "C#",
+      "repo_count": 116
+    },
+    {
+      "year_month": "2025-11",
+      "language": "C++",
+      "repo_count": 99
+    },
+    {
+      "year_month": "2025-11",
+      "language": "CSS",
+      "repo_count": 203
+    },
+    {
+      "year_month": "2025-11",
+      "language": "HTML",
+      "repo_count": 996
+    },
+    {
+      "year_month": "2025-11",
+      "language": "Java",
+      "repo_count": 173
+    },
+    {
+      "year_month": "2025-11",
+      "language": "JavaScript",
+      "repo_count": 2780
+    },
+    {
+      "year_month": "2025-11",
+      "language": "Jupyter Notebook",
+      "repo_count": 6156
+    },
+    {
+      "year_month": "2025-11",
+      "language": "Python",
+      "repo_count": 8926
+    },
+    {
+      "year_month": "2025-11",
+      "language": "R",
+      "repo_count": 46
+    },
+    {
+      "year_month": "2025-11",
+      "language": "TypeScript",
+      "repo_count": 4526
+    }
+  ],
+  "statistics": {
+    "before_chatgpt": {
+      "total_repos": 320293,
+      "avg_monthly_repos": 13925.782608695652,
+      "total_stars": 4083931,
+      "total_forks": 681682
+    },
+    "after_chatgpt": {
+      "total_repos": 1539213,
+      "avg_monthly_repos": 41600.35135135135,
+      "total_stars": 15650315,
+      "total_forks": 2320761
+    }
+  }
+}
