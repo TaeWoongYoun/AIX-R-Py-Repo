@@ -25,7 +25,7 @@
 
 연구 결과 시각화 및 데이터셋은 GitHub Pages를 통해 확인하실 수 있습니다:
 
-**🔗 [https://taewooungyoun.github.io/AIX-R-Py-Repo/](https://taewoongyoun.github.io/AIX-R-Py-Repo/)**
+**🔗 [https://taewoongyoun.github.io/AIX-R-Py-Repo/](https://taewoongyoun.github.io/AIX-R-Py-Repo/)**
 
 ## 문의
 
