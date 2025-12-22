@@ -1,181 +1,146 @@
-# AI 시대 개발자 생태계 변화 분석: GitHub와 Stack Overflow를 중심으로
+# AI 도구가 개발자 생태계에 미치는 영향 분석
 
-## 1. 연구 개요
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-4.5.2-276DC3?style=flat-square&logo=r&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white)
 
-### 1.1 연구 배경 및 필요성
-최근 전 세계적으로 인공지능 기술이 급속도로 발전하면서, 소프트웨어 개발 생태계에도 큰 변화가 일어나고 있다. 특히 2022년 11월 ChatGPT의 출시를 기점으로 AI 코딩 어시스턴트가 대중화되면서, 개발자들의 작업 방식과 문제 해결 패턴이 크게 변화하고 있다.
+> 한양대학교 ERICA 스마트융합공학부 스마트ICT융합전공
+> Stack Overflow와 GitHub AI 레포지토리 데이터 기반 실증 분석
 
-전통적으로 개발자들은 코딩 중 발생하는 문제를 Stack Overflow와 같은 개발자 커뮤니티에서 질문하고 답변을 찾아왔다. 동시에 GitHub는 버전 관리 시스템이자 협업 플랫폼으로서 개발자들의 프로젝트 저장소이자 소통 공간 역할을 해왔다. 하지만 AI 도구의 등장으로 이러한 패턴이 변화하고 있으며, 이는 개발자 생태계의 근본적인 변화를 시사한다.
+## 프로젝트 소개
 
-따라서 AI 시대에 GitHub와 Stack Overflow라는 두 주요 개발 플랫폼의 활동 양상이 어떻게 변화했는지 실증적으로 분석할 필요가 있다.
+본 연구는 2022년 11월 ChatGPT 출시 이후 소프트웨어 개발 생태계의 변화를 실제 데이터를 통해 정량적으로 분석합니다. GitHub AI 레포지토리 185만 개와 Stack Overflow 질문 데이터를 기반으로, ChatGPT 출시 전후의 개발자 행동 패턴 변화를 통계적으로 검증합니다.
 
-### 1.2 연구 문제
-본 연구는 AI 도구의 대중화가 개발자 생태계에 미친 영향을 분석하기 위해 다음과 같은 구체적인 질문에 답하고자 한다:
+### 주요 성과
 
-- AI 도래 이후 GitHub 활동량(레포지토리 생성, 이슈, 포크 등)은 어떻게 변화했는가?
-- AI 도래 이후 Stack Overflow의 질문 및 활동량은 어떻게 변화했는가?
-- GitHub 활동량과 Stack Overflow 활동량 간의 상관관계는 어떻게 변화했는가?
-- 개발자들의 소통 방식은 어떻게 변화했는가?
+- **Stack Overflow 질문 수**: ChatGPT 출시 후 **51% 감소** (t-test p < 0.001)
+- **GitHub AI 레포지토리**: ChatGPT 출시 후 **141% 증가** (t-test p < 0.001)
+- **상관관계 분석**: Pearson 상관계수 **r = -0.933** (매우 강한 음의 상관관계)
+- **통계적 유의성**: 모든 검정에서 p-value < 0.001로 통계적으로 유의미한 변화 확인
 
-### 1.3 연구 목적
-본 연구의 궁극적인 목적은 AI 도구의 등장이 개발자 커뮤니티와 협업 방식에 미친 영향을 실증적으로 분석함으로써, 향후 개발자 생태계의 변화 방향을 예측하고 이에 대한 시사점을 제공하는 것이다.
+## 프로젝트 웹페이지
 
-이를 위해, 다음과 같은 구체적인 목표를 설정하였다:
+연구 결과 시각화 및 데이터셋은 GitHub Pages를 통해 확인하실 수 있습니다:
 
-- GitHub 활동 지표(레포지토리 생성, 이슈, 포크 등)와 Stack Overflow 활동량의 시계열 추이를 분석한다.
-- AI 도래 전후(Before/After)의 활동 패턴 변화를 정량적으로 비교한다.
-- 두 플랫폼 간의 상관관계를 분석하여 개발자 소통 방식의 변화를 파악한다.
-- 데이터를 바탕으로 개발자 커뮤니티 활성화 및 교육 전략에 대한 인사이트를 도출한다.
+**🔗 [https://taewooungyoun.github.io/AIX-R-Py-Repo/](https://taewooungyoun.github.io/AIX-R-Py-Repo/)**
 
-### 1.4 기대효과
-본 연구를 통해 다음과 같은 학술적, 실무적 기대효과를 얻을 수 있다:
+## 관련 저장소
 
-**학술적 기여**
-- AI 도구가 개발자 커뮤니티에 미치는 영향을 실증적으로 분석함으로써, 기술 변화가 온라인 커뮤니티에 미치는 영향에 대한 이해를 확장한다.
-- 개발자 생태계 변화 패턴을 규명하여 향후 유사한 기술 변화에 대한 예측 모델 구축에 기여한다.
-- GitHub와 Stack Overflow라는 두 플랫폼의 상호작용을 분석하여 온라인 협업 생태계 연구에 새로운 관점을 제시한다.
+- **메인 저장소**: [https://github.com/TaeWoongYoun/AIX-R-Py-Repo](https://github.com/TaeWoongYoun/AIX-R-Py-Repo)
 
-**실무적 시사점**
-- 개발자 교육 및 온보딩 전략 개선: AI 시대에 맞는 효과적인 개발자 교육 방법론을 제시할 수 있다.
-- 개발 협업 플랫폼 설계 인사이트: GitHub, Stack Overflow 등 개발자 플랫폼의 향후 서비스 개선 방향을 제안할 수 있다.
-- 기술 커뮤니티 운영 방향성 제시: 변화하는 개발자 소통 패턴을 고려한 커뮤니티 운영 전략을 도출할 수 있다.
+## 기술 스택
 
-## 2. 선행연구 고찰
+### 데이터 분석
+- **Python**: Pandas, NumPy, Matplotlib, JSON
+- **R**: jsonlite, t-test, 상관분석
+- **데이터 소스**: GitHub API, Stack Overflow API
 
-### 2.1 GitHub 활동 패턴 연구
-GitHub는 세계 최대의 소프트웨어 개발 플랫폼으로, 수많은 연구자들이 GitHub 데이터를 활용하여 개발자 협업 패턴, 오픈소스 프로젝트 성공 요인, 개발자 네트워크 등을 분석해왔다. 특히 최근 연구들은 GitHub의 이슈(Issue)와 풀 리퀘스트(Pull Request)가 단순한 기술적 도구를 넘어 개발자 간 소통과 협업의 핵심 수단으로 활용되고 있음을 밝혔다.
+### 통계 분석
+- **검정 방법**: Independent t-test, Pearson Correlation
+- **시각화**: 시계열 그래프, Before/After 비교, 상관관계 산점도, 정규화 추세 분석
 
-**한계점**: 기존 연구들은 주로 GitHub 내부 활동에만 초점을 맞추었으며, AI 도구의 등장과 같은 외부 기술 변화가 GitHub 활동에 미치는 영향을 다루지 못했다.
+### 데이터셋
+- **기간**: 2021년 1월 ~ 2024년 12월 (48개월)
+- **GitHub**: 월별 AI 레포지토리 생성 수 (185만+ 레포지토리)
+- **Stack Overflow**: 월별 질문 수 데이터
 
-### 2.2 Stack Overflow 커뮤니티 연구
-Stack Overflow는 개발자들의 대표적인 Q&A 플랫폼으로, 수많은 연구가 질문-답변 패턴, 커뮤니티 참여 동기, 지식 공유 메커니즘 등을 분석해왔다. 최근 일부 연구에서는 Stack Overflow의 트래픽 감소 현상을 보고하고 있으나, 그 원인에 대한 실증적 분석은 부족한 상황이다.
+## 연구 방법론
 
-**한계점**: AI 도구의 등장이 Stack Overflow 활동량에 미친 영향을 정량적으로 분석한 연구가 부족하며, 다른 개발 플랫폼과의 관계 변화를 종합적으로 다루지 못했다.
+### 1. 데이터 수집
+- GitHub API를 통한 AI 관련 레포지토리 데이터 수집
+- Stack Overflow API를 통한 월별 질문 데이터 수집
+- 2021-2024년 4년간 월별 데이터 집계
 
-### 2.3 AI 코딩 도구의 영향 연구
-ChatGPT, GitHub Copilot 등 AI 코딩 어시스턴트의 등장 이후, 일부 연구들이 이들 도구가 개발 생산성에 미치는 영향을 분석하기 시작했다. 그러나 대부분의 연구가 개발 속도나 코드 품질과 같은 직접적 효과에 집중하고 있으며, 개발자 커뮤니티 전반의 생태계 변화를 다루는 연구는 매우 제한적이다.
+### 2. 통계 분석
+- **Before/After 분석**: ChatGPT 출시(2022년 11월) 전후 비교
+- **t-test**: 두 기간의 평균 차이 검정
+- **상관분석**: Stack Overflow와 GitHub AI 레포지토리 간 관계 분석
 
-**한계점**: AI 도구가 개발자들의 정보 탐색 행동과 커뮤니티 참여 패턴에 미치는 간접적 영향을 종합적으로 분석한 연구가 부족하다.
+### 3. 시각화
+- 이중 축 시계열 그래프
+- Before vs After 막대 그래프
+- 전년대비 변화율 분석
+- 상관관계 산점도
+- 정규화 추세 비교
 
-### 2.4 본 연구의 차별성
-본 연구는 기존 연구의 한계를 보완하여 다음과 같은 차별점을 갖는다:
+## 프로젝트 구조
 
-1. **통합적 분석**: GitHub와 Stack Overflow를 함께 분석하여 개발자 생태계 전체의 변화를 조망한다.
-2. **AI 영향 분석**: ChatGPT 등장 전후를 명확히 구분하여 AI 도구의 영향을 실증적으로 검증한다.
-3. **시계열 분석**: 2021년부터 2025년까지의 데이터를 활용하여 시간에 따른 변화 추이를 상세히 분석한다.
-4. **다차원적 접근**: 단순 활동량뿐 아니라 협업 패턴(이슈, 포크), AI 관련 프로젝트 비율 등 다양한 지표를 종합적으로 고려한다.
-
-## 3. 데이터
-
-본 연구에서 사용된 데이터는 GitHub API와 Stack Overflow API를 통해 수집된 자료를 기반으로 한다. 각 데이터의 출처는 아래와 같다:
-
-### 3.1 데이터 출처
-
-**1) GitHub 레포지토리 데이터**
-- 출처: GitHub API
-- 기간: 2021년 1월 1일 ~ 2025년 11월 현재
-- 파일: `Dataset/github2021~2025.csv`
-
-**2) Stack Overflow 질문 데이터**
-- 출처: Stack Overflow API
-- 기간: 2021년 1월 1일 ~ 2025년 11월 현재
-- 파일: `Dataset/stackoverflow2021~2025.csv`
-
-### 3.2 주요 변수
-
-**GitHub 데이터**
-- `period`: Before/After (ChatGPT 출시 기준: 2022년 11월)
-- `stars`: 레포지토리 스타 수 (인기도 지표)
-- `forks`: 포크 수 (협업 활동 지표)
-- `watchers`: 관심 사용자 수
-- `open_issues`: 오픈 이슈 수 (협업/소통 지표)
-- `created_at`: 레포지토리 생성 시점
-- `updated_at`: 최근 업데이트 시점
-- `pushed_at`: 최근 푸시 시점
-- `language`: 프로그래밍 언어
-- `ai_field`: AI 관련 분류 (LLM, NLP, Computer Vision 등)
-
-**Stack Overflow 데이터**
-- `period`: Before/After (ChatGPT 출시 기준)
-- `creation_date`: 질문 생성 시점
-- `tags`: 질문 태그
-- `AI_field`: AI 관련 분류
-- `has_vibe_coding_tag`: AI 코딩 관련 태그 여부
-- `has_ai_agent_tag`: AI 에이전트 관련 태그 여부
-- `has_autonomous_tag`: 자율 시스템 관련 태그 여부
-
-### 3.3 데이터 전처리
-
-각 데이터셋은 다음과 같은 전처리 과정을 거쳤다:
-
-**결측치 처리**
-- GitHub 데이터: 결측치가 거의 발생하지 않았으며, 발생한 경우 0 또는 평균값으로 대체
-- Stack Overflow 데이터: 태그 정보 결측치는 'Unknown'으로 분류
-
-**시간 구분**
-- Before: 2021년 1월 ~ 2022년 10월 (ChatGPT 출시 전)
-- After: 2022년 11월 ~ 2025년 11월 (ChatGPT 출시 후)
-
-**AI 관련 분류**
-- GitHub: description, topics 필드를 분석하여 AI 관련 키워드 추출
-- Stack Overflow: tags 필드에서 AI 관련 태그 식별
-
-데이터는 월별, 분기별로 집계되어 시계열 분석에 활용되었다.
-
-## 4. 모형
-
-본 연구에서는 개발자 생태계 변화를 분석하기 위해 다중회귀분석(Multiple Linear Regression) 모델을 사용하였다. 이는 여러 독립변수가 종속변수에 미치는 영향을 동시에 분석할 수 있는 통계적 기법이다.
-
-### 4.1 모형 설정
-
-**모델 1: Stack Overflow 활동량 예측 모형**
-
-종속변수(Y): Stack Overflow 질문 수 (SO_questions)
-
-독립변수(X):
-- X₁: GitHub 레포지토리 생성 수 (github_repos)
-- X₂: GitHub 이슈 수 (github_issues)
-- X₃: GitHub 포크 수 (github_forks)
-- X₄: 기간 더미 변수 (period: Before=0, After=1)
-- X₅: AI 관련 프로젝트 비율 (ai_ratio)
-
-**회귀식:**
 ```
-SO_questions = β₀ + β₁(github_repos) + β₂(github_issues) + β₃(github_forks) + β₄(period) + β₅(ai_ratio) + ε
+AIX-R-Py-Repo/
+├── analysis_code.R              # R 통계 분석 코드
+├── real_data_analysis (2).py    # Python 데이터 분석 및 시각화
+├── index.html                   # 프로젝트 웹페이지
+├── styles.css                   # 웹페이지 스타일
+├── script.js                    # 이미지 슬라이더 기능
+├── images/                      # 분석 결과 시각화 이미지
+│   ├── fig1_timeseries_real.png
+│   ├── fig2_before_after_real.png
+│   ├── fig3_yoy_real.png
+│   ├── fig4_correlation_real.png
+│   └── fig5_normalized_trends.png
+├── doc/                         # 데이터셋 및 보고서
+│   ├── github2021_2025_monthly.json
+│   ├── stackoverflow_monthly_data_full.json
+│   └── 2025084557 윤태웅 기말보고서.docx
+├── HOMEWORK1/                   # Python 과제 (보스턴 주택가격, 와인 품질)
+└── HOMEWORK2/                   # R 과제 (통계 분석 및 시각화)
 ```
 
-### 4.2 모형 해석
+## 실행 방법
 
-**1) GitHub 레포지토리 수 (X₁)**
-개발자 증가 및 개발 활동 증가를 나타내는 지표. 레포지토리가 증가하면 Stack Overflow 질문도 증가할 것으로 예상되나, AI 도구 등장 이후에는 이 관계가 약화될 수 있다.
+### Python 분석 실행
+```bash
+python "real_data_analysis (2).py"
+```
 
-**2) GitHub 이슈 수 (X₂)**
-GitHub 내부에서의 소통 활동을 나타냄. 이슈가 증가하면 개발자들이 GitHub 내에서 문제를 해결하고 있음을 의미하며, Stack Overflow 질문 수와는 음의 상관관계를 보일 수 있다.
+### R 통계 분석 실행
+```bash
+Rscript analysis_code.R
+```
 
-**3) GitHub 포크 수 (X₃)**
-협업 활동의 지표. 포크가 증가하면 오픈소스 협업이 활발해지고 있음을 의미하며, 커뮤니티 전체의 활성도를 반영한다.
+### 웹페이지 로컬 실행
+```bash
+# 로컬 서버 실행 (Python)
+python -m http.server 8000
 
-**4) 기간 더미 변수 (X₄)**
-ChatGPT 출시 전후를 구분. After 기간에 음의 계수가 나온다면 AI 도구가 Stack Overflow 활동을 감소시켰다는 증거가 된다.
+# 브라우저에서 접속
+# http://localhost:8000
+```
 
-**5) AI 관련 프로젝트 비율 (X₅)**
-전체 프로젝트 중 AI 관련 프로젝트의 비율. AI 기술 자체에 대한 관심 증가를 나타낸다.
+## 주요 발견사항
 
-본 연구에서 설정한 다중회귀모형은 개발자 생태계의 변화를 정량적으로 분석하는 데 유용한 도구가 된다. 각 변수의 회귀 계수를 해석함으로써, AI 시대 개발자 커뮤니티의 변화 방향을 예측하고, 정책적 인사이트를 제공할 수 있다.
+### 1. Stack Overflow 감소
+- ChatGPT 출시 전: 평균 약 360,000건/월
+- ChatGPT 출시 후: 평균 약 176,000건/월
+- **감소율: 51%** (p < 0.001)
 
-## 5. 모형 분석
+### 2. GitHub AI 레포지토리 증가
+- ChatGPT 출시 전: 평균 약 27,000개/월
+- ChatGPT 출시 후: 평균 약 65,000개/월
+- **증가율: 141%** (p < 0.001)
 
-(분석 결과는 데이터 분석 후 작성 예정)
+### 3. 강한 음의 상관관계
+- Pearson 상관계수: **r = -0.933**
+- 개발자들이 Stack Overflow에서 AI 도구로 문제 해결 방식 전환
+- AI 도구 사용 증가 → 전통적 Q&A 플랫폼 의존도 감소
 
-### 5.1 기술통계 분석 결과
-### 5.2 상관관계 분석 결과
-### 5.3 회귀분석 결과
-### 5.4 시각화 및 해석
+## 연구자
 
-## 6. 결론
+**윤태웅**
+- 한양대학교 ERICA 스마트융합공학부 스마트ICT융합전공
+- 📧 taewoong25@hanyang.ac.kr
+- 📧 24457545yong@gmail.com
 
-(분석 완료 후 작성 예정)
+## 문의
 
-### 6.1 연구 결과 요약
-### 6.2 정책적 시사점
-### 6.3 연구의 한계 및 향후 연구 방향
+프로젝트에 대한 질문이나 협업 제안은 아래 연락처로 문의해주세요:
+
+**윤태웅** - 24457545yong@gmail.com
+
+---
+
+**License**: MIT License
+**Last Updated**: 2024-12
