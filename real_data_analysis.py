@@ -30,11 +30,11 @@ print("=" * 70)
 # =============================================================================
 
 # GitHub 데이터
-with open('/mnt/user-data/uploads/github2021_2025_monthly.json', 'r') as f:
+with open('github2021_2025_monthly.json', 'r', encoding='utf-8') as f:
     gh_data = json.load(f)
 
 # Stack Overflow 데이터
-with open('/mnt/user-data/outputs/stackoverflow_monthly_data_full.json', 'r') as f:
+with open('stackoverflow_monthly_data_full.json', 'r', encoding='utf-8') as f:
     so_data = json.load(f)
 
 # DataFrame 변환
@@ -233,7 +233,7 @@ lines2, labels2 = ax2.get_legend_handles_labels()
 ax1.legend(lines1 + lines2, labels1 + labels2, loc='upper right', fontsize=9)
 
 plt.tight_layout()
-plt.savefig('/mnt/user-data/outputs/fig1_timeseries_real.png', dpi=150, bbox_inches='tight')
+plt.savefig('fig1_timeseries_real.png', dpi=150, bbox_inches='tight')
 print("  ✅ Figure 1 저장: fig1_timeseries_real.png")
 
 # Figure 2: Before/After 비교
@@ -278,7 +278,7 @@ axes[1].text(0.5, 0.55, f'+{gh_change:.0f}%', transform=axes[1].transAxes,
              fontsize=28, ha='center', va='center', color='blue', fontweight='bold')
 
 plt.tight_layout()
-plt.savefig('/mnt/user-data/outputs/fig2_before_after_real.png', dpi=150, bbox_inches='tight')
+plt.savefig('fig2_before_after_real.png', dpi=150, bbox_inches='tight')
 print("  ✅ Figure 2 저장: fig2_before_after_real.png")
 
 # Figure 3: YoY 변화율
@@ -312,7 +312,7 @@ axes[1].set_title('GitHub AI Repos: Year-over-Year Repository Creation Change', 
 axes[1].legend(loc='upper left')
 
 plt.tight_layout()
-plt.savefig('/mnt/user-data/outputs/fig3_yoy_real.png', dpi=150, bbox_inches='tight')
+plt.savefig('fig3_yoy_real.png', dpi=150, bbox_inches='tight')
 print("  ✅ Figure 3 저장: fig3_yoy_real.png")
 
 # Figure 4: 상관관계 산점도
@@ -341,7 +341,7 @@ ax.text(0.02, 0.98, textstr, transform=ax.transAxes, fontsize=11,
         verticalalignment='top', bbox=props)
 
 plt.tight_layout()
-plt.savefig('/mnt/user-data/outputs/fig4_correlation_real.png', dpi=150, bbox_inches='tight')
+plt.savefig('fig4_correlation_real.png', dpi=150, bbox_inches='tight')
 print("  ✅ Figure 4 저장: fig4_correlation_real.png")
 
 # Figure 5: 월별 추이 (정규화 비교)
@@ -368,7 +368,7 @@ ax.legend(loc='center left', fontsize=9)
 ax.set_ylim(-0.05, 1.1)
 
 plt.tight_layout()
-plt.savefig('/mnt/user-data/outputs/fig5_normalized_trends.png', dpi=150, bbox_inches='tight')
+plt.savefig('fig5_normalized_trends.png', dpi=150, bbox_inches='tight')
 print("  ✅ Figure 5 저장: fig5_normalized_trends.png")
 
 # =============================================================================

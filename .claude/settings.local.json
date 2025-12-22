@@ -11,7 +11,16 @@
       "Bash(git push)",
       "Bash(git reset:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\ndocs : Update file\n\nAdd data analysis files and visualizations\n- Add real data analysis script and visualizations\n- Add GitHub and StackOverflow monthly data in JSON format\n- Add SQL queries for data extraction\n- Remove old visualization images\n- Exclude large CSV files from repository\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\ndocs : Update file\n\nAdd data analysis files and visualizations\n- Add real data analysis script and visualizations\n- Add GitHub and StackOverflow monthly data in JSON format\n- Add SQL queries for data extraction\n- Remove old visualization images\n- Exclude large CSV files from repository\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(dir \"C:\\\\Program Files\\\\R\"\" /b)",
+      "Bash(\"/c/Program Files/R/R-4.5.2/bin/Rscript.exe\" -e \"install.packages\\(''jsonlite'', repos=''https://cran.rstudio.com/''\\)\")",
+      "Bash(\"/c/Program Files/R/R-4.5.2/bin/Rscript.exe\" -e \"install.packages\\(''R6'', repos=''https://cran.rstudio.com/''\\)\")",
+      "Bash(\"/c/Program Files/R/R-4.5.2/bin/Rscript.exe\" -e \"install.packages\\(''remotes'', repos=''https://cran.rstudio.com/''\\)\")",
+      "Bash(\"/c/Program Files/R/R-4.5.2/bin/Rscript.exe\" -e \"remotes::install_github\\(''ManuelHentschel/vscDebugger''\\)\")",
+      "Bash(python:*)",
+      "Bash(where:*)",
+      "Bash(py \"real_data_analysis \\(2\\).py\")",
+      "Bash(PYTHONIOENCODING=utf-8 py:*)"
     ],
     "deny": [],
     "ask": []
