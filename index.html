@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 도구가 개발자 생태계에 미치는 영향 분석</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="logo/logo1.png" alt="Logo 1" class="logo">
+            <img src="logo/logo2.png" alt="Logo 2" class="logo">
+            <img src="logo/logo3.png" alt="Logo 3" class="logo">
+        </div>
+    </header>
+
+    <!-- Title Section -->
+    <section class="title-section">
+        <h1 class="main-title">AI 도구가 개발자 생태계에 미치는 영향 분석</h1>
+        <h2 class="subtitle">Stack Overflow와 GitHub AI 레포지토리를 중심으로</h2>
+        <div class="authors">
+            <span class="author">윤태웅</span>
+        </div>
+        <div class="affiliation">
+            한양대학교 ERICA 스마트융합공학부 스마트ICT융합전공
+        </div>
+    </section>
+
+    <!-- Abstract Section -->
+    <section class="abstract-section">
+        <h2>Abstract</h2>
+        <p>
+            2022년 11월 ChatGPT 출시 이후 소프트웨어 개발 생태계가 급격히 변화했습니다.
+            본 연구는 AI 코드 생성 도구가 개발자 커뮤니티에 미친 영향을 실제 데이터를 통해 분석합니다.
+            GitHub AI 레포지토리 185만 개와 Stack Overflow 질문 데이터를 기반으로,
+            ChatGPT 출시 전후의 개발 패턴 변화를 정량적으로 측정하고 분석합니다.
+        </p>
+        <p>
+            분석 결과, Stack Overflow 질문 수는 ChatGPT 출시 후 51% 감소한 반면,
+            GitHub AI 레포지토리는 141% 증가하여 강한 음의 상관관계(r = -0.933)를 보였습니다.
+            이는 개발자들이 전통적인 Q&A 플랫폼에서 AI 도구로 문제 해결 방식을 전환했음을 시사합니다.
+        </p>
+    </section>
+
+    <!-- Image Slider Section -->
+    <section class="slider-section">
+        <h2>연구 결과 시각화</h2>
+        <div class="slider-container">
+            <div class="slider-wrapper">
+                <button class="slider-btn prev-btn" id="prevBtn">&#8249;</button>
+
+                <div class="slider-images" id="sliderImages">
+                    <!-- Images will be added dynamically by JavaScript -->
+                </div>
+
+                <button class="slider-btn next-btn" id="nextBtn">&#8250;</button>
+            </div>
+
+            <div class="slider-indicators" id="sliderIndicators">
+                <!-- Indicators will be added dynamically -->
+            </div>
+
+            <div class="slider-description">
+                <p id="sliderDesc"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Downloads Section -->
+    <section class="downloads-section">
+        <h2>Downloads & Resources</h2>
+        <div class="download-links">
+            <a href="doc/2025084557 윤태웅 기말보고서.docx" class="download-item" download>
+                <span class="download-icon">📄</span>
+                <div class="download-info">
+                    <span class="download-text">기말보고서 (DOCX)</span>
+                    <span class="download-desc">전체 연구 보고서</span>
+                </div>
+            </a>
+            <a href="doc/github2021_2025_monthly.json" class="download-item" download>
+                <span class="download-icon">📊</span>
+                <div class="download-info">
+                    <span class="download-text">GitHub Dataset (JSON)</span>
+                    <span class="download-desc">월별 AI 레포지토리 데이터</span>
+                </div>
+            </a>
+            <a href="doc/stackoverflow_monthly_data_full.json" class="download-item" download>
+                <span class="download-icon">📊</span>
+                <div class="download-info">
+                    <span class="download-text">Stack Overflow Dataset (JSON)</span>
+                    <span class="download-desc">월별 질문 수 데이터</span>
+                </div>
+            </a>
+            <a href="HOMEWORK1/" class="download-item" target="_blank">
+                <span class="download-icon">📁</span>
+                <div class="download-info">
+                    <span class="download-text">HOMEWORK1 (Python)</span>
+                    <span class="download-desc">보스턴 주택가격 예측 & 와인 품질 분석</span>
+                </div>
+            </a>
+            <a href="HOMEWORK2/" class="download-item" target="_blank">
+                <span class="download-icon">📁</span>
+                <div class="download-info">
+                    <span class="download-text">HOMEWORK2 (R)</span>
+                    <span class="download-desc">통계 분석 및 시각화</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Citation Section -->
+    <section class="citation-section">
+        <h2>코드 및 데이터</h2>
+        <div class="citation-box">
+            <pre><code>git clone https://github.com/TaeWoongYoun/AIX-R-Py-Repo.git
+cd AIX-R-Py-Repo
+
+# Python 분석 실행
+python real_data_analysis.py
+
+# R 분석 실행
+Rscript analysis_code.R</code></pre>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer class="contact-section">
+        <h2>Contact</h2>
+        <p>연구에 대한 질문이나 협업 제안은 아래 연락처로 문의해주세요.</p>
+        <p><strong>윤태웅</strong> - <a href="mailto:24457545yong@gmail.com">24457545yong@gmail.com</a></p>
+        <p class="github-link">
+            <a href="https://github.com/TaeWoongYoun/AIX-R-Py-Repo" target="_blank">
+                GitHub Repository 방문하기 →
+            </a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
