@@ -125,8 +125,9 @@ body {
 
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+    /* min(100%, ...) 으로 아주 좁은 화면에서도 카드가 넘치지 않고 1열로 접힘 */
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+    gap: 22px;
 }
 
 .proj-card {
@@ -309,6 +310,7 @@ body {
     object-position: top;
     display: block;
     background: #f0f0f0;
+    cursor: zoom-in;
 }
 
 .shot-caption {
@@ -539,12 +541,20 @@ code {
    반응형
    ===================================================================== */
 @media (max-width: 768px) {
+    .container {
+        padding: 28px 16px;
+    }
+
+    .title-section {
+        padding: 36px 24px;
+    }
+
     .title-section h1 {
         font-size: 1.7rem;
     }
 
-    .card-grid {
-        grid-template-columns: 1fr;
+    .section {
+        padding: 24px 20px;
     }
 
     .shot-grid.two-col,
@@ -561,7 +571,66 @@ code {
         flex-direction: column;
     }
 
-    .logos img {
-        height: 40px;
+    .logos {
+        gap: 18px;
     }
+
+    .logos img {
+        height: 38px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .logos img {
+        height: 30px;
+    }
+}
+
+/* =====================================================================
+   라이트박스 (이미지 클릭 확대) — lightbox.js와 함께 동작
+   ===================================================================== */
+.lightbox-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease;
+    cursor: zoom-out;
+}
+
+.lightbox-overlay.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.lightbox-overlay img {
+    max-width: 95%;
+    max-height: 95%;
+    object-fit: contain;
+    border-radius: 6px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
+}
+
+.lightbox-close {
+    position: fixed;
+    top: 16px;
+    right: 24px;
+    width: 44px;
+    height: 44px;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 1;
+    background: none;
+    border: 0;
+    cursor: pointer;
 }
