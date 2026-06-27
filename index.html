@@ -4,139 +4,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI 도구가 개발자 생태계에 미치는 영향 분석</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="base.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="logo-container">
-            <img src="logo/logo1.png" alt="Logo 1" class="logo">
-            <img src="logo/logo2.png" alt="Logo 2" class="logo">
-            <img src="logo/logo3.png" alt="Logo 3" class="logo">
+    <div class="container">
+        <!-- Logos -->
+        <div class="logos">
+            <img src="logo/logo2.png" alt="Python">
+            <img src="logo/logo1.png" alt="한양대학교 ERICA">
+            <img src="logo/logo3.png" alt="R">
         </div>
-    </header>
 
-    <!-- Title Section -->
-    <section class="title-section">
-        <h1 class="main-title">AI 도구가 개발자 생태계에 미치는 영향 분석</h1>
-        <h2 class="subtitle">Stack Overflow와 GitHub AI 레포지토리를 중심으로</h2>
-        <div class="authors">
-            <span class="author">윤태웅</span>
-        </div>
-        <div class="affiliation">
-            한양대학교 ERICA 스마트융합공학부 스마트ICT융합전공
-        </div>
-    </section>
-
-    <!-- Abstract Section -->
-    <section class="abstract-section">
-        <h2>Abstract</h2>
-        <p>
-            2022년 11월 ChatGPT 출시 이후 소프트웨어 개발 생태계가 급격히 변화했습니다.
-            본 연구는 AI 코드 생성 도구가 개발자 커뮤니티에 미친 영향을 실제 데이터를 통해 분석합니다.
-            GitHub AI 레포지토리 185만 개와 Stack Overflow 질문 데이터를 기반으로,
-            ChatGPT 출시 전후의 개발 패턴 변화를 정량적으로 측정하고 분석합니다.
-        </p>
-        <p>
-            분석 결과, Stack Overflow 질문 수는 ChatGPT 출시 후 51% 감소한 반면,
-            GitHub AI 레포지토리는 141% 증가하여 강한 음의 상관관계(r = -0.933)를 보였습니다.
-            이는 개발자들이 전통적인 Q&A 플랫폼에서 AI 도구로 문제 해결 방식을 전환했음을 시사합니다.
-        </p>
-    </section>
-
-    <!-- Image Slider Section -->
-    <section class="slider-section">
-        <h2>연구 결과 시각화</h2>
-        <div class="slider-container">
-            <div class="slider-wrapper">
-                <button class="slider-btn prev-btn" id="prevBtn">&#8249;</button>
-
-                <div class="slider-images" id="sliderImages">
-                    <!-- Images will be added dynamically by JavaScript -->
-                </div>
-
-                <button class="slider-btn next-btn" id="nextBtn">&#8250;</button>
-            </div>
-
-            <div class="slider-indicators" id="sliderIndicators">
-                <!-- Indicators will be added dynamically -->
-            </div>
-
-            <div class="slider-description">
-                <p id="sliderDesc"></p>
+        <!-- Title -->
+        <div class="title-section">
+            <h1>AI 도구가 개발자 생태계에 미치는 영향 분석</h1>
+            <div class="subtitle">ChatGPT 출시 전후, Stack Overflow와 GitHub 데이터 기반 실증 분석</div>
+            <div class="authors">윤태웅</div>
+            <div class="affiliation">한양대학교 ERICA 스마트융합공학부 스마트ICT융합전공<br>AI+X: R-Py컴퓨팅 · 프로젝트</div>
+            <div class="badges">
+                <span class="badge">Python</span>
+                <span class="badge">R</span>
+                <span class="badge">Pandas</span>
+                <span class="badge">Matplotlib</span>
+                <span class="badge">데이터 분석</span>
+                <span class="badge">개인 프로젝트</span>
             </div>
         </div>
-    </section>
 
-    <!-- Downloads Section -->
-    <section class="downloads-section">
-        <h2>Downloads & Resources</h2>
-        <div class="download-links">
-            <a href="doc/2025084557 윤태웅 기말보고서.docx" class="download-item" download>
-                <span class="download-icon">📄</span>
-                <div class="download-info">
-                    <span class="download-text">기말보고서 (DOCX)</span>
-                    <span class="download-desc">전체 연구 보고서</span>
-                </div>
-            </a>
-            <a href="doc/github2021_2025_monthly.json" class="download-item" download>
-                <span class="download-icon">📊</span>
-                <div class="download-info">
-                    <span class="download-text">GitHub Dataset (JSON)</span>
-                    <span class="download-desc">월별 AI 레포지토리 데이터</span>
-                </div>
-            </a>
-            <a href="doc/stackoverflow_monthly_data_full.json" class="download-item" download>
-                <span class="download-icon">📊</span>
-                <div class="download-info">
-                    <span class="download-text">Stack Overflow Dataset (JSON)</span>
-                    <span class="download-desc">월별 질문 수 데이터</span>
-                </div>
-            </a>
-            <a href="HOMEWORK1/" class="download-item" target="_blank">
-                <span class="download-icon">📁</span>
-                <div class="download-info">
-                    <span class="download-text">HOMEWORK1 (Python)</span>
-                    <span class="download-desc">보스턴 주택가격 예측 & 와인 품질 분석</span>
-                </div>
-            </a>
-            <a href="HOMEWORK2/" class="download-item" target="_blank">
-                <span class="download-icon">📁</span>
-                <div class="download-info">
-                    <span class="download-text">HOMEWORK2 (R)</span>
-                    <span class="download-desc">통계 분석 및 시각화</span>
-                </div>
-            </a>
+        <!-- About -->
+        <div class="section">
+            <h2>About Project</h2>
+            <p class="abstract">
+                본 연구는 2022년 11월 ChatGPT 출시 이후 소프트웨어 개발 생태계의 변화를 실제 데이터로
+                정량 분석합니다. GitHub의 AI 관련 레포지토리 약 <strong>185만 개</strong>와 Stack Overflow
+                질문 데이터를 기반으로, ChatGPT 출시 전후 개발자 행동 패턴의 변화를 통계적으로 검증했습니다.
+                질문은 줄고 레포지토리는 늘어나는 뚜렷한 역상관 관계를 데이터로 확인했습니다.
+            </p>
+
+            <h3>주요 성과</h3>
+            <ul class="bullets">
+                <li><strong>Stack Overflow 질문 수</strong> · ChatGPT 출시 후 <strong>51% 감소</strong> (t-test p &lt; 0.001)</li>
+                <li><strong>GitHub AI 레포지토리</strong> · ChatGPT 출시 후 <strong>141% 증가</strong> (t-test p &lt; 0.001)</li>
+                <li><strong>상관관계</strong> · Pearson 상관계수 <strong>r = -0.933</strong> (매우 강한 음의 상관)</li>
+                <li><strong>통계적 유의성</strong> · 모든 검정에서 p-value &lt; 0.001로 유의미한 변화 확인</li>
+            </ul>
         </div>
-    </section>
 
-    <!-- Citation Section -->
-    <section class="citation-section">
-        <h2>코드 및 데이터</h2>
-        <div class="citation-box">
-            <pre><code>git clone https://github.com/TaeWoongYoun/AIX-R-Py-Repo.git
-cd AIX-R-Py-Repo
-
-# Python 분석 실행
-python real_data_analysis.py
-
-# R 분석 실행
-Rscript analysis_code.R</code></pre>
+        <!-- Results -->
+        <div class="section">
+            <h2>Results</h2>
+            <p class="section-desc">분석 결과 시각화입니다.</p>
+            <div class="shot-grid two-col">
+                <div class="shot-item">
+                    <img src="images/fig1_timeseries_real.png" alt="시계열 추세">
+                    <div class="shot-caption">시계열 추세 — Stack Overflow 질문 · GitHub 레포 생성량 추이</div>
+                </div>
+                <div class="shot-item">
+                    <img src="images/fig2_before_after_real.png" alt="ChatGPT 전후 비교">
+                    <div class="shot-caption">ChatGPT 출시 전후 비교 — 평균 수준 변화</div>
+                </div>
+                <div class="shot-item">
+                    <img src="images/fig3_yoy_real.png" alt="전년 대비 증감">
+                    <div class="shot-caption">전년 대비(YoY) 증감률</div>
+                </div>
+                <div class="shot-item">
+                    <img src="images/fig4_correlation_real.png" alt="상관관계 분석">
+                    <div class="shot-caption">상관관계 분석 — r = -0.933 음의 상관</div>
+                </div>
+                <div class="shot-item">
+                    <img src="images/fig5_normalized_trends.png" alt="정규화 트렌드">
+                    <div class="shot-caption">정규화 트렌드 — 두 지표의 교차 추세</div>
+                </div>
+            </div>
         </div>
-    </section>
 
-    <!-- Contact Section -->
-    <footer class="contact-section">
-        <h2>Contact</h2>
-        <p>연구에 대한 질문이나 협업 제안은 아래 연락처로 문의해주세요.</p>
-        <p><strong>윤태웅</strong> - <a href="mailto:taewoong25@hanyang.ac.kr">taewoong25@hanyang.ac.kr</a></p>
-        <p class="github-link">
-            <a href="https://github.com/TaeWoongYoun/AIX-R-Py-Repo" target="_blank">
-                GitHub Repository 방문하기 →
-            </a>
-        </p>
-    </footer>
+        <!-- Methodology -->
+        <div class="section">
+            <h2>Methodology</h2>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr><th>단계</th><th>설명</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>데이터 수집</td><td>GitHub API · Stack Overflow Data Dump (2021–2025, ChatGPT 출시 전후)</td></tr>
+                        <tr><td>전처리</td><td>Pandas·NumPy로 월별 집계, AI 분야별(LLM·DL·CV·NLP·RL) 분류</td></tr>
+                        <tr><td>통계 검정</td><td>t-test로 출시 전후 평균 차이 검정 (p &lt; 0.001)</td></tr>
+                        <tr><td>상관 분석</td><td>Pearson 상관계수로 질문 수–레포 수 관계 분석</td></tr>
+                        <tr><td>시각화</td><td>Matplotlib·Seaborn 시계열·비교·상관 그래프</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
-    <script src="script.js"></script>
+        <!-- Tech Stack -->
+        <div class="section">
+            <h2>Tech Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-block">
+                    <h3>개발 환경</h3>
+                    <ul>
+                        <li><strong>언어</strong> · Python 3.8+, R 4.5</li>
+                        <li><strong>분석</strong> · Pandas, NumPy</li>
+                        <li><strong>시각화</strong> · Matplotlib, Seaborn</li>
+                    </ul>
+                </div>
+                <div class="tech-block">
+                    <h3>분석 기법</h3>
+                    <ul>
+                        <li><strong>데이터 소스</strong> · GitHub API, Stack Overflow Data Dump</li>
+                        <li><strong>통계 검정</strong> · t-test 기반 전후 비교</li>
+                        <li><strong>상관 분석</strong> · Pearson 상관계수</li>
+                        <li><strong>시계열</strong> · 추세·정규화 트렌드 분석</li>
+                        <li><strong>분류</strong> · LLM·Deep Learning·CV·NLP·RL 카테고리</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Resources -->
+        <div class="section">
+            <h2>Resources</h2>
+            <div class="resources">
+                <a href="https://github.com/TaeWoongYoun/AIX-R-Py-Repo" class="resource-link" target="_blank" rel="noopener">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"/>
+                    </svg>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://taewoongyoun.github.io/" class="resource-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z"/>
+                    </svg>
+                    <span>전체 프로젝트 목록</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="contact">
+            <h2>Contact</h2>
+            <p>문의사항은 아래 이메일로 연락주시기 바랍니다.</p>
+            <a href="mailto:taewoong25@hanyang.ac.kr">윤태웅 · taewoong25@hanyang.ac.kr</a>
+        </div>
+    </div>
 </body>
 </html>

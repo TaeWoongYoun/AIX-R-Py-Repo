@@ -1,0 +1,567 @@
+/* =====================================================================
+   base.css — 공용 디자인 시스템
+   윤태웅 프로젝트 사이트 전 페이지(허브 + 상세) 공통 스타일.
+   허브는 루트에서 href="base.css", 상세 페이지는 href="../base.css".
+   페이지 고유 스타일이 필요하면 각 폴더의 style.css에서 덮어쓴다.
+   ===================================================================== */
+
+/* ---- Reset & 기본 타이포 ---- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f5f5f5;
+    min-height: 100vh;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* ---- 로고 줄 ---- */
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.logos img {
+    height: 56px;
+    object-fit: contain;
+}
+
+/* ---- 타이틀 / 히어로 섹션 ---- */
+.title-section {
+    text-align: center;
+    background: #fff;
+    padding: 50px 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.title-section h1 {
+    font-size: 2.4rem;
+    color: #111;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+}
+
+.subtitle {
+    font-size: 1.15rem;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.authors {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.affiliation {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+/* ---- 배지 ---- */
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+/* 타이틀 섹션 안의 배지는 가운데 정렬 */
+.title-section .badges {
+    justify-content: center;
+    margin-top: 22px;
+    margin-bottom: 0;
+}
+
+.badge {
+    font-size: 0.78rem;
+    color: #fff;
+    background: #111;
+    padding: 5px 12px;
+    border-radius: 999px;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+}
+
+/* =====================================================================
+   허브(메인) 전용 — 그룹 섹션 & 프로젝트 카드
+   ===================================================================== */
+
+/* 개인/팀 그룹 구분 헤딩 */
+.group-section {
+    margin-bottom: 36px;
+}
+
+.group-title {
+    font-size: 1.4rem;
+    color: #111;
+    margin-bottom: 4px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #111;
+}
+
+.group-desc {
+    font-size: 0.9rem;
+    color: #888;
+    margin: 10px 0 20px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.proj-card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.proj-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 22px rgba(0,0,0,0.15);
+}
+
+.proj-thumb {
+    aspect-ratio: 16 / 9;
+    background: #000;
+    overflow: hidden;
+}
+
+.proj-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.proj-thumb-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #111;
+}
+
+.proj-thumb-text span {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-align: center;
+    padding: 0 16px;
+}
+
+.proj-body {
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.proj-body h2 {
+    font-size: 1.3rem;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.proj-body h2 .ext {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+.proj-body p {
+    font-size: 0.92rem;
+    color: #555;
+    margin-bottom: 14px;
+    flex: 1;
+}
+
+/* 카드 안 배지는 작게 */
+.proj-body .badges {
+    gap: 6px;
+}
+
+.proj-body .badge {
+    font-size: 0.75rem;
+    padding: 4px 10px;
+}
+
+.proj-meta {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+/* =====================================================================
+   상세 페이지 전용 — 섹션 / 표 / 스크린샷 / 기술스택 / 리소스
+   ===================================================================== */
+
+.section {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 1.3rem;
+    color: #111;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #111;
+}
+
+.section h3 {
+    font-size: 1.05rem;
+    color: #111;
+    margin: 26px 0 12px;
+}
+
+.section-desc {
+    font-size: 0.95rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.abstract {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* 순서/비순서 목록 (게임 방법, 기능 설명 등) */
+.howto,
+.bullets {
+    padding-left: 20px;
+    color: #555;
+}
+
+.howto li,
+.bullets li {
+    margin-bottom: 8px;
+    padding-left: 4px;
+}
+
+.howto strong,
+.bullets strong {
+    color: #111;
+}
+
+/* 스크린샷 그리드 — 개수에 상관없이 자동 배치 */
+.shot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.shot-item {
+    background: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+
+.shot-grid.two-col {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* 단일/세로형 이미지용 — 가운데 정렬, 폭 제한 */
+.shot-grid.single {
+    grid-template-columns: minmax(0, 440px);
+    justify-content: center;
+}
+
+/* 세로(포트레이트) 이미지는 크롭하지 않고 원본 비율 유지 */
+.shot-item.portrait img {
+    aspect-ratio: auto;
+    object-fit: contain;
+    height: auto;
+}
+
+.shot-item img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    background: #f0f0f0;
+}
+
+.shot-caption {
+    padding: 12px;
+    font-size: 0.85rem;
+    color: #333;
+    text-align: center;
+}
+
+/* 데모 영상 그리드 */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+}
+
+.video-grid.two-col {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.video-item {
+    background: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+
+.video-item video,
+.video-item iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    display: block;
+    border: 0;
+    background: #000;
+}
+
+.video-caption {
+    padding: 12px;
+    font-size: 0.85rem;
+    color: #333;
+    text-align: center;
+}
+
+/* 반응형 임베드 영상 (YouTube iframe 등) */
+.video-container {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 */
+    border-radius: 8px;
+    overflow: hidden;
+    background: #000;
+    border: 1px solid #eee;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* 코드 블록 (clone 명령 등) */
+pre {
+    background: #111;
+    color: #f5f5f5;
+    padding: 16px 18px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: 'Consolas', 'Menlo', monospace;
+    font-size: 0.88rem;
+    line-height: 1.6;
+}
+
+pre code {
+    background: none;
+    color: inherit;
+    padding: 0;
+    font-size: inherit;
+}
+
+/* 구현 표 */
+.table-wrap {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 12px 14px;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+}
+
+table thead th {
+    background: #111;
+    color: #fff;
+    font-weight: 600;
+}
+
+table th:first-child,
+table td:first-child {
+    white-space: nowrap;
+}
+
+table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+code {
+    font-family: 'Consolas', 'Menlo', monospace;
+    font-size: 0.88em;
+    background: #f0f0f0;
+    color: #111;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/* 기술 스택 그리드 */
+.tech-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 30px;
+}
+
+.tech-block h3 {
+    margin-top: 0;
+}
+
+.tech-block ul {
+    list-style: none;
+}
+
+.tech-block li {
+    font-size: 0.92rem;
+    color: #555;
+    padding: 7px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.tech-block li:last-child {
+    border-bottom: none;
+}
+
+.tech-block strong {
+    color: #111;
+}
+
+/* 리소스 / 외부 링크 버튼 */
+.resources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.resource-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background: #fff;
+    color: #111;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    transition: all 0.2s ease;
+}
+
+.resource-link:hover {
+    background: #111;
+    color: #fff;
+    border-color: #111;
+}
+
+.resource-link:hover svg {
+    fill: #fff;
+}
+
+.resource-link svg {
+    width: 18px;
+    height: 18px;
+    fill: #111;
+}
+
+.resource-link span {
+    font-size: 0.9rem;
+}
+
+/* =====================================================================
+   Contact (공통)
+   ===================================================================== */
+.contact {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 1.3rem;
+    color: #111;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #111;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* =====================================================================
+   반응형
+   ===================================================================== */
+@media (max-width: 768px) {
+    .title-section h1 {
+        font-size: 1.7rem;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .shot-grid.two-col,
+    .video-grid.two-col {
+        grid-template-columns: 1fr;
+    }
+
+    .tech-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .resources {
+        flex-direction: column;
+    }
+
+    .logos img {
+        height: 40px;
+    }
+}
